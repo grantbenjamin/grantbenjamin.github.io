@@ -1,6 +1,13 @@
 ---
+title: Research
 permalink: /research/
-title: "Research"
+header:
+  image: /assets/images/yukon1.jpeg
 ---
 
-- This is Research
+
+### Working papers
+
+### Works In Progress
+
+### Publications
