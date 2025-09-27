@@ -14,6 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Grant Benjamin
+url: https://grantbenjamin.github.io
+github: [metadata]
 email: grant.benjamin@mail.utoronto.ca
 description: >- # this means to ignore newlines in the text below
   Grant Benjamin's personal website
@@ -60,22 +62,18 @@ author:
   avatar : "/assets/images/photo.jpg"
   bio    : "PhD Candidate in Economics at the University of Toronto"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://grantbenjamin.github.io/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:grant.benjamin@mail.utoronto.ca"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grantbenjamin/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/grantbenjamin"
-    - label: "ORCID"
-      icon: "ai ai-orcid"
-      url: "https://orcid.org/0000-0003-0744-9428"
-
     - label: "Google Scholar"
       icon: "ai ai-google-scholar"
       url: "https://scholar.google.com/citations?user=LHONFP4AAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0003-0744-9428"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #  url: "https://x.com/GrantWBenjamin"
@@ -88,12 +86,9 @@ footer:
   #  - label: "Twitter"
   #    icon: "fab fa-fw fa-twitter-square"
   #    url: "https://twitter.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/grantbenjamin/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/grantbenjamin"
+  #  - label: "LinkedIn"
+  #    icon: "fab fa-fw fa-linkedin"
+  #    url: "https://www.linkedin.com/in/grantbenjamin/"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
@@ -123,7 +118,7 @@ defaults:
 
 # Social
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#twitter-cards-and-facebook-open-graph
-# og_image: /assets/images/default-thumb.png
+ og_image: /assets/images/default-thumb.png
 
 # Analytics
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#analytics
