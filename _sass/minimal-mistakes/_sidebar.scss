@@ -137,6 +137,18 @@
   }
 }
 
+@media (max-width: 600px) {
+  .author__avatar {
+    width: auto;       // let it grow with the image
+    height: auto;
+  }
+
+  .author__avatar img {
+    max-width: 120px;  // pick a size that looks good on your phone
+    height: auto;
+  }
+}
+
 .author__content {
   display: table-cell;
   vertical-align: top;
