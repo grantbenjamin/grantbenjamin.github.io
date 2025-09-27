@@ -62,6 +62,8 @@ author:
   avatar : "/assets/images/photo2.jpg"
   bio    : "PhD Candidate in Economics at the University of Toronto"
   links:
+    - label: "Toronto, Ontario"
+      icon: "fas fa-fw fa-map-marker-alt"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:grant.benjamin@mail.utoronto.ca"
@@ -69,7 +71,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grantbenjamin/"
     - label: "Google Scholar"
-      icon: "ai ai-google-scholar"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=LHONFP4AAAAJ&hl=en"
     - label: "ORCID"
       icon: "ai ai-orcid"
