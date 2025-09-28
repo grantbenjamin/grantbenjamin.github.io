@@ -23,6 +23,8 @@ twitter_username: GrantWBenjamin
 github_username: grantbenjamin
 minimal_mistakes_skin: air #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: false
+atom_feed:
+  hide: true
 
 # Build settings
 markdown: kramdown
