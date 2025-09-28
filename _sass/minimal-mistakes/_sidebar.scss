@@ -7,6 +7,9 @@
    ========================================================================== */
 
 .sidebar {
+   flex: 0 0 480px;
+   max-width: 480px;
+   
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -127,7 +130,7 @@
   }
 
   img {
-    max-width: 240px;
+    max-width: 480px;
     border-radius: 8%;
 
     @include breakpoint($large) {
@@ -356,3 +359,6 @@
   }
 }
 
+.sidebar__inner {
+  width: 480px;
+}
