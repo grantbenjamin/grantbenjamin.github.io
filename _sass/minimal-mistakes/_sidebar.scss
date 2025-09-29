@@ -44,6 +44,8 @@
  // width: calc(#{$right-sidebar-width} - 1em);
 //}
 
+
+
 > * {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -142,6 +144,12 @@ margin-right: 0;
 
 }
 
+@media (min-width: 1280px) {
+  .sidebar {
+    min-width: 280px;
+    max-width: 280px; /* stop growth at x-large */
+  }
+  
 @media (max-width: 768px) {
   .sidebar {
     width: 100%;       /* sidebar fills the screen */
