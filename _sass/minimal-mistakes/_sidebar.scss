@@ -9,7 +9,7 @@
 .sidebar {
   // max-width: 180px;
   // min-width: 180px;
-   flex: 0 0 25%;
+   flex: 0 0 30%;
    // max-width: 480px;
   
   @include clearfix();
@@ -355,8 +355,8 @@ float: none;
 }
 }
 
-//@include breakpoint($x-large) {
-//width: initial;
-//margin-right: initial;
-//}
+@include breakpoint($x-large) {
+width: initial;
+margin-right: initial;
+}
 }
