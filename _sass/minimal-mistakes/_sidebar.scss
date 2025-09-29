@@ -194,54 +194,59 @@ margin-bottom: 20px;
 }
 }
 
+
 .author__urls-wrapper {
-  position: relative;
-  display: block;           // force vertical stacking
-  width: 100%;              // full width to align under text
-  text-align: left;
-  font-family: $sans-serif;
-  z-index: 20;
-  cursor: pointer;
-  margin-top: 0.5em;        // optional spacing from text above
+position: relative;
+display: table-cell;
+text-align: left;
+vertical-align: middle;
+font-family: $sans-serif;
+z-index: 20;
+cursor: pointer;
 
-  li:last-child a {
-    margin-bottom: 0;
-  }
-
-  .author__urls span.label {
-    padding-left: 5px;
-  }
-
-  button {
-    display: inline-block;   // button behaves normally
-    position: relative;
-    margin-bottom: 0;
-
-    &:before {
-      @supports (pointer-events: none) {
-        content: '';
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-      }
-    }
-
-    &.open {
-      &:before {
-        pointer-events: auto;
-      }
-    }
-
-    @include breakpoint($medium) {
-      display: block;       // keep visible and stacked under text on mobile
-      margin-top: 0.5em;    // spacing from above text
-    }
-  }
+li:last-child {
+a {
+margin-bottom: 0;
+}
 }
 
+.author__urls {
+span.label {
+padding-left: 5px;
+}
+}
+
+@include breakpoint($medium) {
+  display: block;
+}
+
+button {
+position: relative;
+margin-bottom: 0;
+
+&:before {
+@supports (pointer-events: none) {
+content: '';
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+}
+}
+
+&.open {
+&:before {
+pointer-events: auto;
+}
+}
+
+@include breakpoint($medium) {
+display: none;
+}
+}
+}
 
 .author__urls {
 display: none;
