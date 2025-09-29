@@ -132,6 +132,7 @@ height: auto;
 img {
     width: 100%;       /* fills the width of the sidebar */
     height: auto;      /* keeps aspect ratio */
+    min-width: 400px;
     max-width: 600px;  /* optional: caps it so it doesn’t get too huge */
     border-radius: 8%;
 
