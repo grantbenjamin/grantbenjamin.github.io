@@ -40,9 +40,9 @@
 }
 }
 
-@include breakpoint($x-large) {
-  width: calc(#{$right-sidebar-width} - 1em);
-}
+//@include breakpoint($x-large) {
+ // width: calc(#{$right-sidebar-width} - 1em);
+//}
 
 > * {
   margin-top: 1em;
@@ -95,10 +95,10 @@ float: right;
 }
 }
 
-@include breakpoint($x-large) {
-width: $right-sidebar-width;
-margin-right: -1 * $right-sidebar-width;
-}
+//@include breakpoint($x-large) {
+//width: $right-sidebar-width;
+//margin-right: -1 * $right-sidebar-width;
+//}
 }
 
 .splash .sidebar__right {
@@ -108,9 +108,9 @@ float: right;
 margin-right: 0;
 }
 
-@include breakpoint($x-large) {
-margin-right: 0;
-}
+//@include breakpoint($x-large) {
+//margin-right: 0;
+//}
 }
 
 /*
@@ -359,8 +359,8 @@ float: none;
 }
 }
 
-@include breakpoint($x-large) {
-width: initial;
-margin-right: initial;
-}
+//@include breakpoint($x-large) {
+//width: initial;
+//margin-right: initial;
+//}
 }
