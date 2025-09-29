@@ -120,24 +120,24 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
-
+   
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
   }
 
-  img {
-    max-width: 480px;
-    border-radius: 8%;
-
-    @include breakpoint($large) {
-      padding: 0px;
-      border: 0px solid $border-color;
-    }
-  }
+   img {
+     width: 480px;       /* fixed width */
+     height: 480px;      /* keep square shape */
+     object-fit: cover;  /* crop instead of stretching */
+     border-radius: 8%;
+   
+     @include breakpoint($large) {
+       padding: 0px;
+       border: 0px solid $border-color;
+     }
+   }
 }
 
 @media (max-width: 600px) {
