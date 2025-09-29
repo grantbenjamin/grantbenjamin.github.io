@@ -144,12 +144,17 @@ margin-right: 0;
 
 @media (max-width: 768px) {
   .sidebar {
-    flex: 0 0 100%;      /* take up 80% of the screen */
+    flex: 0 0 100%;       /* take up full width */
+    display: flex;        /* make the sidebar a flex container */
+    justify-content: center; /* center the content */
   }
-  img {
-    width: 70%;       /* fill the container (sidebar) */
-    height: auto;      /* keep aspect ratio */
-}
+
+  .sidebar img {
+    width: 80%;           /* fill 80% of sidebar width */
+    max-width: 240px;     /* optional: cap the size */
+    height: auto;         /* keep aspect ratio */
+    display: block;       /* remove inline spacing issues */
+  }
 }
 
 .author__content {
