@@ -361,19 +361,16 @@ text-decoration: underline;
 margin-bottom: 1em;
 
 @include breakpoint($large) {
-position: initial;
-top: initial;
-right: initial;
-width: initial;
-margin-right: initial;
-padding-left: initial;
-z-index: initial;
+  .sidebar {
+    width: 280px;      // lock width
+    min-width: 280px;  // optional safety
+    max-width: 280px;  // optional safety
+  }
 
-&.sticky {
-float: none;
+  .sidebar.sticky {
+    float: right;      // if you still want sticky behavior
+  }
 }
-}
-
 
 
 //@include breakpoint($x-large) {
