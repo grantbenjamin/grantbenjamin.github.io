@@ -372,6 +372,18 @@ margin-bottom: 1em;
   }
 }
 
+@media (min-width: #{$large}) {  /* $large */
+  .page__content p,
+  .page__content li,
+  .page__meta,
+  .page__meta-title,
+  .page__lead,
+  .author__name,
+  .author__urls a {
+    font-size: inherit !important;
+  }
+}
+
 
 //@include breakpoint($x-large) {
 //width: initial;
