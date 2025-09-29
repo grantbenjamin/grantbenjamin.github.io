@@ -140,14 +140,15 @@ margin-right: 0;
 
 }
 
-@media (max-width: 300px) {
-  .author__avatar {
-    width: auto;       // let it grow with the image
-    height: auto;
-}
-  .author__avatar img {
-    max-width: 300px;  // pick a size that looks good on your phone
-    height: auto;
+@media (max-width: 450px) {
+  .sidebar {
+    flex: 0 0 80%;      /* take up 80% of the screen */
+    max-width: 360px;   /* optional cap for phones */
+  }
+
+  img {
+    width: 100%;        /* fill sidebar width */
+    height: auto;       /* keep aspect ratio */
   }
 }
 
