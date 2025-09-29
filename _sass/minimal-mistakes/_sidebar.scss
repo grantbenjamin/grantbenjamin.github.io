@@ -7,8 +7,8 @@
    ========================================================================== */
 
 .sidebar {
-   flex: 0 0 480px;
-   max-width: 480px;
+   flex: 0 0 540px;
+   max-width: 540px;
    
   @include clearfix();
   // @include breakpoint(max-width $large) {
@@ -128,8 +128,7 @@
   }
 
    img {
-     width: 480px;       /* fixed width */
-     object-fit: cover;  /* crop instead of stretching */
+     width: 540px;
      border-radius: 8%;
    
      @include breakpoint($large) {
