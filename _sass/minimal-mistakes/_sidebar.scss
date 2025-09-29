@@ -9,7 +9,7 @@
 .sidebar {
   // max-width: 180px;
   // min-width: 180px;
-   min-width: 200px;
+   min-width: 180px;
   
   @include clearfix();
 // @include breakpoint(max-width $large) {
@@ -119,7 +119,7 @@ margin-right: 0;
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 200px;
+  width: 180px;
   
   @include breakpoint($medium) {
     display: block;
