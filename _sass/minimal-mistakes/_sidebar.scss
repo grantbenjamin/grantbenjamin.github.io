@@ -7,21 +7,6 @@
    ========================================================================== */
 
 .sidebar {
-<<<<<<< Updated upstream
-  // max-width: 180px;
-  // min-width: 180px;
-   min-width: 180px;
-  
-  @include clearfix();
-// @include breakpoint(max-width $large) {
-//   /* fix z-index order of follow links */
-//   position: relative;
-//   z-index: 10;
-//   -webkit-transform: translate3d(0, 0, 0);
-//   transform: translate3d(0, 0, 0);
-// }
-  @include breakpoint($medium) {
-=======
    flex: 0 0 480px;
    max-width: 480px;
    
@@ -35,7 +20,6 @@
   // }
 
   @include breakpoint($large) {
->>>>>>> Stashed changes
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 1;
@@ -92,12 +76,8 @@
 
 .sidebar__right {
   margin-bottom: 1em;
-<<<<<<< Updated upstream
-  @include breakpoint($medium) {
-=======
 
   @include breakpoint($large) {
->>>>>>> Stashed changes
     position: absolute;
     top: 0;
     right: 0;
@@ -122,19 +102,11 @@
 }
 
 .splash .sidebar__right {
-<<<<<<< Updated upstream
-@include breakpoint($medium) {
-position: relative;
-float: right;
-margin-right: 0;
-}
-=======
   @include breakpoint($large) {
     position: relative;
     float: right;
     margin-right: 0;
   }
->>>>>>> Stashed changes
 
   @include breakpoint($x-large) {
     margin-right: 0;
@@ -148,16 +120,10 @@ margin-right: 0;
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-<<<<<<< Updated upstream
-  width: 180px;
-  
-  @include breakpoint($medium) {
-=======
   width: 36px;
   height: 36px;
 
   @include breakpoint($large) {
->>>>>>> Stashed changes
     display: block;
     width: auto;
     height: auto;
@@ -166,22 +132,14 @@ margin-right: 0;
   img {
     max-width: 480px;
     border-radius: 8%;
-    max-width: 480px;
 
-    @include breakpoint($medium) {
+    @include breakpoint($large) {
       padding: 0px;
       border: 0px solid $border-color;
     }
   }
 }
 
-<<<<<<< Updated upstream
-}
-
-@media (max-width: 768px) {
-  .sidebar {
-    flex: 0 0 100%;      /* take up 80% of the screen */
-=======
 @media (max-width: 600px) {
   .author__avatar {
     width: auto;       // let it grow with the image
@@ -191,12 +149,7 @@ margin-right: 0;
   .author__avatar img {
     max-width: 480px;  // pick a size that looks good on your phone
     height: auto;
->>>>>>> Stashed changes
   }
-  img {
-    width: 50%;       /* fill the container (sidebar) */
-    height: auto;      /* keep aspect ratio */
-}
 }
 
 .author__content {
@@ -205,13 +158,8 @@ margin-right: 0;
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
-<<<<<<< Updated upstream
-  
-  @include breakpoint($medium) {
-=======
 
   @include breakpoint($large) {
->>>>>>> Stashed changes
     display: block;
     width: 100%;
     padding-left: 0;
@@ -227,17 +175,10 @@ margin-right: 0;
 .author__name {
   margin: 0;
 
-<<<<<<< Updated upstream
-@include breakpoint($medium) {
-margin-top: 10px;
-margin-bottom: 10px;
-}
-=======
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 10px;
   }
->>>>>>> Stashed changes
 }
 .sidebar .author__name {
   font-family: $sans-serif;
@@ -247,37 +188,19 @@ margin-bottom: 10px;
 .author__bio {
   margin: 0;
 
-<<<<<<< Updated upstream
-@include breakpoint($small) {
-margin-top: 10px;
-margin-bottom: 20px;
-}
-=======
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
->>>>>>> Stashed changes
 }
 
-
 .author__urls-wrapper {
-<<<<<<< Updated upstream
-position: relative;
-display: table-cell;
-text-align: left;
-vertical-align: middle;
-font-family: $sans-serif;
-z-index: 20;
-cursor: pointer;
-=======
   position: relative;
   display: table-cell;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
   cursor: pointer;
->>>>>>> Stashed changes
 
   li:last-child {
     a {
@@ -336,15 +259,9 @@ cursor: pointer;
   box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
   cursor: default;
 
-<<<<<<< Updated upstream
-@include breakpoint($medium) {
-  display: block;
-}
-=======
   &.is--visible {
     display: block;
   }
->>>>>>> Stashed changes
 
   @include breakpoint($large) {
     display: block;
@@ -373,13 +290,6 @@ cursor: pointer;
     }
   }
 
-<<<<<<< Updated upstream
-@include breakpoint($medium) {
-display: none;
-}
-}
-}
-=======
   &:after {
     display: block;
     content: "";
@@ -391,7 +301,6 @@ display: none;
     border-width: 0 10px 10px;
     border-color: $background-color transparent;
     z-index: 1;
->>>>>>> Stashed changes
 
     @include breakpoint($large) {
       display: none;
@@ -403,21 +312,9 @@ display: none;
     list-style-type: none;
   }
 
-<<<<<<< Updated upstream
-@include breakpoint($medium) {
-display: block;
-position: relative;
-margin: 0;
-padding: 0;
-border: 0;
-background: transparent;
-box-shadow: none;
-}
-=======
   li {
     white-space: nowrap;
   }
->>>>>>> Stashed changes
 
   a {
     display: block;
@@ -429,58 +326,10 @@ box-shadow: none;
     font-size: $type-size-5;
     text-decoration: none;
 
-<<<<<<< Updated upstream
-@include breakpoint($medium) {
-display: none;
-}
-}
-
-&:after {
-display: block;
-content: "";
-position: absolute;
-top: -10px;
-left: calc(50% - 10px);
-width: 0;
-border-style: solid;
-border-width: 0 10px 10px;
-border-color: $background-color transparent;
-z-index: 1;
-
-@include breakpoint($medium) {
-display: none;
-}
-}
-
-ul {
-padding: 10px;
-list-style-type: none;
-}
-
-li {
-white-space: nowrap;
-}
-
-a {
-display: block;
-margin-bottom: 5px;
-padding-right: 5px;
-padding-top: 2px;
-padding-bottom: 2px;
-color: inherit;
-font-size: $type-size-5;
-text-decoration: none;
-
-&:hover {
-text-decoration: underline;
-}
-}
-=======
     &:hover {
       text-decoration: underline;
     }
   }
->>>>>>> Stashed changes
 }
 
 /*
@@ -513,7 +362,3 @@ text-decoration: underline;
 .sidebar__inner {
   width: 480px;
 }
-<<<<<<< Updated upstream
-}
-=======
->>>>>>> Stashed changes
