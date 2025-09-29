@@ -7,8 +7,8 @@
   ========================================================================== */
 
 .sidebar {
-  max-width: 360px;
-  min-width: 300px;
+  max-width: 180px;
+  min-width: 180px;
   
   @include clearfix();
 // @include breakpoint(max-width $large) {
@@ -141,30 +141,29 @@ margin-right: 0;
 }
 
 @media (max-width: 600px) {
-.author__avatar {
-width: auto;       // let it grow with the image
-height: auto;
+  .author__avatar {
+    width: auto;       // let it grow with the image
+    height: auto;
 }
-
-.author__avatar img {
-max-width: 480px;  // pick a size that looks good on your phone
-height: auto;
-}
+  .author__avatar img {
+    max-width: 480px;  // pick a size that looks good on your phone
+    height: auto;
+  }
 }
 
 .author__content {
-display: table-cell;
-vertical-align: top;
-padding-left: 15px;
-padding-right: 25px;
-line-height: 1;
-
-@include breakpoint($large) {
-display: block;
-width: 100%;
-padding-left: 0;
-padding-right: 0;
-}
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 25px;
+  line-height: 1;
+  
+  @include breakpoint($large) {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
 a {
 color: inherit;
