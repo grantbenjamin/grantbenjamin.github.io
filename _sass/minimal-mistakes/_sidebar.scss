@@ -140,16 +140,16 @@ margin-right: 0;
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 360px) {
   .sidebar {
-    flex: 0 0 80%;      /* take up 80% of the screen */
+    flex: 0 0 100%;      /* take up 80% of the screen */
     max-width: 360px;   /* optional cap for phones */
   }
-
   img {
-    width: 100%;        /* fill sidebar width */
-    height: auto;       /* keep aspect ratio */
-  }
+    width: 50%;       /* fill the container (sidebar) */
+    height: auto;      /* keep aspect ratio */
+    min-width: 180px;  /* never shrink below 200px */
+}
 }
 
 .author__content {
