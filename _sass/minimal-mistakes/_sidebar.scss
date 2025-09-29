@@ -140,13 +140,13 @@ margin-right: 0;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 18ppx) {
   .author__avatar {
     width: auto;       // let it grow with the image
     height: auto;
 }
   .author__avatar img {
-    max-width: 480px;  // pick a size that looks good on your phone
+    max-width: 180px;  // pick a size that looks good on your phone
     height: auto;
   }
 }
