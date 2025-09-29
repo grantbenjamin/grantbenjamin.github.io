@@ -190,7 +190,7 @@ font-size: $type-size-5;
 .author__bio {
 margin: 0;
 
-@include breakpoint($large) {
+@include breakpoint($medium) {
 margin-top: 10px;
 margin-bottom: 20px;
 }
@@ -217,7 +217,7 @@ padding-left: 5px;
 }
 
 @include breakpoint($large) {
-display: block;
+  display: block;
 }
 
 button {
