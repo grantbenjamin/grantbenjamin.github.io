@@ -1,12 +1,13 @@
 /* ==========================================================================
-  SIDEBAR
-  ========================================================================== */
+   SIDEBAR
+   ========================================================================== */
 
 /*
-  Default
-  ========================================================================== */
+   Default
+   ========================================================================== */
 
 .sidebar {
+<<<<<<< Updated upstream
   // max-width: 180px;
   // min-width: 180px;
    min-width: 180px;
@@ -20,63 +21,83 @@
 //   transform: translate3d(0, 0, 0);
 // }
   @include breakpoint($medium) {
+=======
+   flex: 0 0 480px;
+   max-width: 480px;
+   
+  @include clearfix();
+  // @include breakpoint(max-width $large) {
+  //   /* fix z-index order of follow links */
+  //   position: relative;
+  //   z-index: 10;
+  //   -webkit-transform: translate3d(0, 0, 0);
+  //   transform: translate3d(0, 0, 0);
+  // }
+
+  @include breakpoint($large) {
+>>>>>>> Stashed changes
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-  opacity: 1;
-  /*-webkit-transition: opacity 0.2s ease-in-out;
-   transition: opacity 0.2s ease-in-out;*/
-  
-  &:hover {
     opacity: 1;
+    /*-webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;*/
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list
+         viewport height - nav height - masthead x-padding
+      */
+      max-height: calc(100vh - #{$nav-height} - 2em);
+    }
   }
-  
-  &.sticky {
-    overflow-y: auto;
-    /* calculate height of nav list
-        viewport height - nav height - masthead x-padding
-     */
-    max-height: calc(100vh - #{$nav-height} - 2em);
-}
-}
 
-@include breakpoint($x-large) {
-  width: calc(#{$right-sidebar-width} - 1em);
-}
+  @include breakpoint($x-large) {
+    width: calc(#{$right-sidebar-width} - 1em);
+  }
 
-> * {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
+  > * {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin-bottom: 0;
-  font-family: $sans-serif-narrow;
-}
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0;
+    font-family: $sans-serif-narrow;
+  }
 
-p,
-li {
-  font-family: $sans-serif;
-  font-size: $type-size-6;
-  line-height: 1.5;
-}
+  p,
+  li {
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    line-height: 1.5;
+  }
 
-img {
-  width: 100%;
-  &.emoji {
-    width: 20px;
-    height: 20px;
+  img {
+    width: 100%;
+
+    &.emoji {
+      width: 20px;
+      height: 20px;
+    }
   }
 }
-}
-
 
 .sidebar__right {
   margin-bottom: 1em;
+<<<<<<< Updated upstream
   @include breakpoint($medium) {
+=======
+
+  @include breakpoint($large) {
+>>>>>>> Stashed changes
     position: absolute;
     top: 0;
     right: 0;
@@ -85,51 +106,65 @@ img {
     padding-left: 1em;
     z-index: 10;
 
-&.sticky {
-@include clearfix();
-position: -webkit-sticky;
-position: sticky;
-top: 2em;
-float: right;
-}
-}
+    &.sticky {
+      @include clearfix();
+      position: -webkit-sticky;
+      position: sticky;
+      top: 2em;
+      float: right;
+    }
+  }
 
-@include breakpoint($x-large) {
-width: $right-sidebar-width;
-margin-right: -1 * $right-sidebar-width;
-}
+  @include breakpoint($x-large) {
+    width: $right-sidebar-width;
+    margin-right: -1 * $right-sidebar-width;
+  }
 }
 
 .splash .sidebar__right {
+<<<<<<< Updated upstream
 @include breakpoint($medium) {
 position: relative;
 float: right;
 margin-right: 0;
 }
+=======
+  @include breakpoint($large) {
+    position: relative;
+    float: right;
+    margin-right: 0;
+  }
+>>>>>>> Stashed changes
 
-@include breakpoint($x-large) {
-margin-right: 0;
-}
+  @include breakpoint($x-large) {
+    margin-right: 0;
+  }
 }
 
 /*
-  Author profile and links
-  ========================================================================== */
+   Author profile and links
+   ========================================================================== */
 
 .author__avatar {
   display: table-cell;
   vertical-align: top;
+<<<<<<< Updated upstream
   width: 180px;
   
   @include breakpoint($medium) {
+=======
+  width: 36px;
+  height: 36px;
+
+  @include breakpoint($large) {
+>>>>>>> Stashed changes
     display: block;
     width: auto;
     height: auto;
   }
-  
+
   img {
-    width: 100%;       /* fills the width of the sidebar */
-    height: auto;      /* keeps aspect ratio */
+    max-width: 480px;
     border-radius: 8%;
     max-width: 480px;
 
@@ -137,13 +172,26 @@ margin-right: 0;
       padding: 0px;
       border: 0px solid $border-color;
     }
+  }
 }
 
+<<<<<<< Updated upstream
 }
 
 @media (max-width: 768px) {
   .sidebar {
     flex: 0 0 100%;      /* take up 80% of the screen */
+=======
+@media (max-width: 600px) {
+  .author__avatar {
+    width: auto;       // let it grow with the image
+    height: auto;
+  }
+
+  .author__avatar img {
+    max-width: 480px;  // pick a size that looks good on your phone
+    height: auto;
+>>>>>>> Stashed changes
   }
   img {
     width: 50%;       /* fill the container (sidebar) */
@@ -157,44 +205,64 @@ margin-right: 0;
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+<<<<<<< Updated upstream
   
   @include breakpoint($medium) {
+=======
+
+  @include breakpoint($large) {
+>>>>>>> Stashed changes
     display: block;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 
-a {
-color: inherit;
-text-decoration: none;
-}
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 .author__name {
-margin: 0;
+  margin: 0;
 
+<<<<<<< Updated upstream
 @include breakpoint($medium) {
 margin-top: 10px;
 margin-bottom: 10px;
 }
+=======
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+>>>>>>> Stashed changes
 }
 .sidebar .author__name {
-font-family: $sans-serif;
-font-size: $type-size-5;
+  font-family: $sans-serif;
+  font-size: $type-size-5;
 }
 
 .author__bio {
-margin: 0;
+  margin: 0;
 
+<<<<<<< Updated upstream
 @include breakpoint($small) {
 margin-top: 10px;
 margin-bottom: 20px;
 }
+=======
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+>>>>>>> Stashed changes
 }
 
 
 .author__urls-wrapper {
+<<<<<<< Updated upstream
 position: relative;
 display: table-cell;
 text-align: left;
@@ -202,68 +270,140 @@ vertical-align: middle;
 font-family: $sans-serif;
 z-index: 20;
 cursor: pointer;
+=======
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: $sans-serif;
+  z-index: 20;
+  cursor: pointer;
+>>>>>>> Stashed changes
 
-li:last-child {
-a {
-margin-bottom: 0;
-}
+  li:last-child {
+    a {
+      margin-bottom: 0;
+    }
+  }
+
+  .author__urls {
+    span.label {
+      padding-left: 5px;
+    }
+  }
+
+  @include breakpoint($large) {
+    display: block;
+  }
+
+  button {
+    position: relative;
+    margin-bottom: 0;
+
+    &:before {
+      @supports (pointer-events: none) {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+    }
+
+    &.open {
+      &:before {
+        pointer-events: auto;
+      }
+    }
+
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
 }
 
 .author__urls {
-span.label {
-padding-left: 5px;
-}
-}
+  display: none;
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  padding: 10px;
+  list-style-type: none;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: $background-color;
+  box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+  cursor: default;
 
+<<<<<<< Updated upstream
 @include breakpoint($medium) {
   display: block;
 }
+=======
+  &.is--visible {
+    display: block;
+  }
+>>>>>>> Stashed changes
 
-button {
-position: relative;
-margin-bottom: 0;
+  @include breakpoint($large) {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
 
-&:before {
-@supports (pointer-events: none) {
-content: '';
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-pointer-events: none;
-}
-}
+  &:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: $border-color transparent;
+    z-index: 0;
 
-&.open {
-&:before {
-pointer-events: auto;
-}
-}
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
 
+<<<<<<< Updated upstream
 @include breakpoint($medium) {
 display: none;
 }
 }
 }
+=======
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 10px);
+    width: 0;
+    border-style: solid;
+    border-width: 0 10px 10px;
+    border-color: $background-color transparent;
+    z-index: 1;
+>>>>>>> Stashed changes
 
-.author__urls {
-display: none;
-position: absolute;
-right: 0;
-margin-top: 15px;
-padding: 10px;
-list-style-type: none;
-border: 1px solid $border-color;
-border-radius: $border-radius;
-background: $background-color;
-box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
-cursor: default;
+    @include breakpoint($large) {
+      display: none;
+    }
+  }
 
-&.is--visible {
-display: block;
-}
+  ul {
+    padding: 10px;
+    list-style-type: none;
+  }
 
+<<<<<<< Updated upstream
 @include breakpoint($medium) {
 display: block;
 position: relative;
@@ -273,19 +413,23 @@ border: 0;
 background: transparent;
 box-shadow: none;
 }
+=======
+  li {
+    white-space: nowrap;
+  }
+>>>>>>> Stashed changes
 
-&:before {
-display: block;
-content: "";
-position: absolute;
-top: -11px;
-left: calc(50% - 10px);
-width: 0;
-border-style: solid;
-border-width: 0 10px 10px;
-border-color: $border-color transparent;
-z-index: 0;
+  a {
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: inherit;
+    font-size: $type-size-5;
+    text-decoration: none;
 
+<<<<<<< Updated upstream
 @include breakpoint($medium) {
 display: none;
 }
@@ -331,31 +475,45 @@ text-decoration: none;
 text-decoration: underline;
 }
 }
+=======
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+>>>>>>> Stashed changes
 }
 
 /*
-  Wide Pages
-  ========================================================================== */
+   Wide Pages
+   ========================================================================== */
 
 .wide .sidebar__right {
-margin-bottom: 1em;
+  margin-bottom: 1em;
 
-@include breakpoint($large) {
-position: initial;
-top: initial;
-right: initial;
-width: initial;
-margin-right: initial;
-padding-left: initial;
-z-index: initial;
+  @include breakpoint($large) {
+    position: initial;
+    top: initial;
+    right: initial;
+    width: initial;
+    margin-right: initial;
+    padding-left: initial;
+    z-index: initial;
 
-&.sticky {
-float: none;
-}
+    &.sticky {
+      float: none;
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: initial;
+    margin-right: initial;
+  }
 }
 
-@include breakpoint($x-large) {
-width: initial;
-margin-right: initial;
+.sidebar__inner {
+  width: 480px;
 }
+<<<<<<< Updated upstream
 }
+=======
+>>>>>>> Stashed changes
