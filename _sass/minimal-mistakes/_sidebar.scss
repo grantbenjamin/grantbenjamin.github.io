@@ -9,7 +9,7 @@
 .sidebar {
    flex: 0 0 600px;
    max-width: 600px;
-  min-width: 400px;
+  min-width: 300px;
    
 @include clearfix();
 // @include breakpoint(max-width $large) {
@@ -133,8 +133,6 @@ height: auto;
 img {
     width: 100%;       /* fills the width of the sidebar */
     height: auto;      /* keeps aspect ratio */
-    min-width: 400px;
-    max-width: 600px;  /* optional: caps it so it doesn’t get too huge */
     border-radius: 8%;
 
     @include breakpoint($large) {
