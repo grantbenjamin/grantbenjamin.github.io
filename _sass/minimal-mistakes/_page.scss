@@ -40,7 +40,7 @@ body {
   @include breakpoint($medium) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: ($right-sidebar-width-narrow * 0.2);
+    padding-right: ($right-sidebar-width-narrow * 0.1);
   }
 	
   @include breakpoint($large) {
