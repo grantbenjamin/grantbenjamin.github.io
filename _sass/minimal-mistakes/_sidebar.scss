@@ -7,8 +7,8 @@
   ========================================================================== */
 
 .sidebar {
-  max-width: 180px;
-  min-width: 180px;
+  max-width: 300px;
+  min-width: 300px;
   
   @include clearfix();
 // @include breakpoint(max-width $large) {
@@ -140,13 +140,13 @@ margin-right: 0;
 
 }
 
-@media (max-width: 18ppx) {
+@media (max-width: 300px) {
   .author__avatar {
     width: auto;       // let it grow with the image
     height: auto;
 }
   .author__avatar img {
-    max-width: 180px;  // pick a size that looks good on your phone
+    max-width: 300px;  // pick a size that looks good on your phone
     height: auto;
   }
 }
