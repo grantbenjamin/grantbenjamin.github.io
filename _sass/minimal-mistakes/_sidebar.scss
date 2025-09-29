@@ -7,8 +7,8 @@
   ========================================================================== */
 
 .sidebar {
-  max-width: 300px;
-  min-width: 300px;
+  max-width: 400px;
+  min-width: 400px;
   
   @include clearfix();
 // @include breakpoint(max-width $large) {
@@ -118,8 +118,7 @@ margin-right: 0;
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  height: 36px;
+  width: 400px;
   
   @include breakpoint($large) {
     display: block;
