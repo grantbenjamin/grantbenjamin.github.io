@@ -7,8 +7,8 @@
   ========================================================================== */
 
 .sidebar {
-  max-width: 400px;
-  min-width: 400px;
+  max-width: 240px;
+  min-width: 240px;
   
   @include clearfix();
 // @include breakpoint(max-width $large) {
@@ -118,7 +118,7 @@ margin-right: 0;
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 400px;
+  width: 240px;
   
   @include breakpoint($large) {
     display: block;
@@ -139,15 +139,15 @@ margin-right: 0;
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 240px) {
   .sidebar {
     flex: 0 0 100%;      /* take up 80% of the screen */
-    max-width: 360px;   /* optional cap for phones */
+    max-width: 240px;   /* optional cap for phones */
   }
   img {
-    width: 50%;       /* fill the container (sidebar) */
+    width: 40%;       /* fill the container (sidebar) */
     height: auto;      /* keep aspect ratio */
-    min-width: 180px;  /* never shrink below 200px */
+    min-width: 96px;  /* never shrink below 200px */
 }
 }
 
