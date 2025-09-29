@@ -18,7 +18,7 @@ header:
 
 "Spatial Spillovers in the Attention Economy"
 
-### Publications
+### Non-Economics Publications
 
 "Negative COVID-19 vaccine information on Twitter: content analysis" (with Niko Yiannakoulias, J Connor Darlington, and Catherine E Slavik). *JMIR infodemiology.* August 29, 2022. [Published Version](https://infodemiology.jmir.org/2022/2/e38485).
 
