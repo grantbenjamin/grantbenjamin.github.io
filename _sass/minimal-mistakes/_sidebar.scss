@@ -11,12 +11,7 @@
   // min-width: 180px;
    min-width: 280px;
    max-width: 280px;
-
-  * {
-    font-size: inherit !important; /* forces all children to stay same */
-  }
-  
-  
+    
   @include clearfix();
 // @include breakpoint(max-width $large) {
 //   /* fix z-index order of follow links */
