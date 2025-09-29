@@ -9,6 +9,7 @@
 .sidebar {
    flex: 0 0 600px;
    max-width: 600px;
+  min-width: 400px;
    
 @include clearfix();
 // @include breakpoint(max-width $large) {
