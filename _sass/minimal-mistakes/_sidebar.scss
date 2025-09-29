@@ -342,6 +342,18 @@ text-decoration: underline;
   Wide Pages
   ========================================================================== */
 
+@media (min-width: 1280px) {
+.sidebar p,
+.sidebar li {
+  font-size: 0.75rem; /* = $type-size-6 = ~12px */
+}
+
+.sidebar .author__name,
+.sidebar .author__urls a {
+  font-size: 0.875rem; /* = $type-size-5 = ~14px */
+}
+}
+
 .wide .sidebar__right {
 margin-bottom: 1em;
 
@@ -358,6 +370,8 @@ z-index: initial;
 float: none;
 }
 }
+
+
 
 //@include breakpoint($x-large) {
 //width: initial;
