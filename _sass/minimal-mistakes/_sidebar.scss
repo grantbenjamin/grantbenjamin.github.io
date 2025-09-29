@@ -11,6 +11,10 @@
   // min-width: 180px;
    min-width: 280px;
    max-width: 280px;
+
+  height: auto !important;      // let it grow naturally with content
+  min-height: 0 !important;     // remove any inherited min-height
+  overflow: visible !important; // prevent scrollbars
     
   @include clearfix();
 // @include breakpoint(max-width $large) {
