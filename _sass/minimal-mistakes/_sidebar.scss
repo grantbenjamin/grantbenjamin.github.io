@@ -190,7 +190,7 @@ font-size: $type-size-5;
 .author__bio {
 margin: 0;
 
-@include breakpoint($medium) {
+@include breakpoint($small) {
 margin-top: 10px;
 margin-bottom: 20px;
 }
@@ -216,7 +216,7 @@ padding-left: 5px;
 }
 }
 
-@include breakpoint($large) {
+@include breakpoint($medium) {
   display: block;
 }
 
@@ -242,7 +242,7 @@ pointer-events: auto;
 }
 }
 
-@include breakpoint($large) {
+@include breakpoint($medium) {
 display: none;
 }
 }
@@ -265,7 +265,7 @@ cursor: default;
 display: block;
 }
 
-@include breakpoint($large) {
+@include breakpoint($medium) {
 display: block;
 position: relative;
 margin: 0;
@@ -287,7 +287,7 @@ border-width: 0 10px 10px;
 border-color: $border-color transparent;
 z-index: 0;
 
-@include breakpoint($large) {
+@include breakpoint($medium) {
 display: none;
 }
 }
@@ -304,7 +304,7 @@ border-width: 0 10px 10px;
 border-color: $background-color transparent;
 z-index: 1;
 
-@include breakpoint($large) {
+@include breakpoint($medium) {
 display: none;
 }
 }
