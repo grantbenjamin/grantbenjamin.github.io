@@ -10,8 +10,8 @@ header:
 *Revise and Resubmit at Journal of Public Economics.* <br>
 *Presented at:* 19th North American Meeting of the Urban Economics Association <br>
 <details>
-  <summary><strong>Abstract</strong></summary>
-  <div style="font-size: 0.9em; margin-left: 1em;">
+  <summary>Abstract</summary>
+  <div style="font-size: 0.8em; margin-left: 5em;">
     After introducing traffic safety measures, motorists often adopt riskier driving habits that offset the intended safety improvement. Exploiting a quasi-natural experiment in Toronto, I investigate how leading pedestrian intervals, advance walk signals that provide pedestrians a head start when crossing an intersection before motorists, impact pedestrian safety and influence motorist behaviour. I estimate that leading pedestrian intervals decrease the probability of a pedestrian collision at an intersection by 39%, with a 56% decrease in the likelihood of a pedestrian fatality or major injury. Rather than a behavioural offset, I determine that leading pedestrian intervals elicit a positive behavioural response from motorists to improve traffic safety.
   </div>
 </details>
