@@ -4,9 +4,12 @@ permalink: /research/
 header:
   image: /assets/images/yukon1.jpeg
 ---
-### Working papers
+## Working papers
 
-"Braking Habits: The Impact of Leading Pedestrian Intervals." *Revise and Resubmit at Journal of Public Economics.* [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820). <details>
+#### "Braking Habits: The Impact of Leading Pedestrian Intervals." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820)
+*Revise and Resubmit at Journal of Public Economics.* 
+*Presented at:* 19th North American Meeting of the Urban Economics Association
+<details>
   <summary>Abstract</summary>
   <p>
   This is a Test
@@ -16,7 +19,7 @@ header:
 
 "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)" (with Benjamin Couillard and Jonathan Hall). *I4R Discussion Paper Series.* [Working paper](https://www.econstor.eu/handle/10419/280230).
 
-### Works In Progress
+## Works In Progress
 
 "Construction Productivity Stagnation"
 
@@ -24,7 +27,7 @@ header:
 
 "Spatial Spillovers in the Attention Economy"
 
-### Non-Economics Publications
+## Non-Economics Publications
 
 "Negative COVID-19 vaccine information on Twitter: content analysis" (with Niko Yiannakoulias, J Connor Darlington, and Catherine E Slavik). *JMIR infodemiology.* August 29, 2022. [Published Version](https://infodemiology.jmir.org/2022/2/e38485).
 
