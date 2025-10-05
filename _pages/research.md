@@ -8,8 +8,7 @@ header:
 
 #### "Braking Habits: The Impact of Leading Pedestrian Intervals." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820).
 
-*Revise and Resubmit at Journal of Public Economics.* 
-
+*Revise and Resubmit at Journal of Public Economics.* \\
 *Presented at:* 19th North American Meeting of the Urban Economics Association
 
 #### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)" [Working paper](https://www.econstor.eu/handle/10419/280230).
