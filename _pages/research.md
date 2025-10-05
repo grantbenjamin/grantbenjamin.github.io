@@ -6,9 +6,7 @@ header:
 ---
 ### Working papers
 
-"Braking Habits: The Impact of Leading Pedestrian Intervals." *Revise and Resubmit at Journal of Public Economics.* [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820).
-
-<details>
+"Braking Habits: The Impact of Leading Pedestrian Intervals." *Revise and Resubmit at Journal of Public Economics.* [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820). <details>
   <summary>Abstract</summary>
   <p>
   This is a Test
@@ -17,14 +15,6 @@ header:
 
 
 "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)" (with Benjamin Couillard and Jonathan Hall). *I4R Discussion Paper Series.* [Working paper](https://www.econstor.eu/handle/10419/280230).
-
-
-<details>
-  <summary><a class="btn btn--primary">Abstract</a></summary>
-  <p>
-  This is also a test 
-  </p>
-</details>
 
 ### Works In Progress
 
