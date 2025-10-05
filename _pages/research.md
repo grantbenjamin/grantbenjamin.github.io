@@ -7,10 +7,10 @@ header:
 ## Working papers
 
 #### "Braking Habits: The Impact of Leading Pedestrian Intervals." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820).
-
-*Revise and Resubmit at Journal of Public Economics.* \\
+*Revise and Resubmit at Journal of Public Economics.* <br>
 *Presented at:* 19th North American Meeting of the Urban Economics Association
 
+---
 #### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)" [Working paper](https://www.econstor.eu/handle/10419/280230).
 
 with Benjamin Couillard and Jonathan Hall.
@@ -20,9 +20,11 @@ with Benjamin Couillard and Jonathan Hall.
 ## Works In Progress
 
 #### "Construction Productivity Stagnation"
+---
 
-#### Spatial Spillovers in the Attention Economy
+#### "Spatial Spillovers in the Attention Economy"
 
+---
 #### "Urban Reserves" 
 
 with Stephan Heblich
@@ -33,12 +35,11 @@ with Stephan Heblich
 
 #### "Preventing and Countering Violent Extremism: Best Practices and Standardizations" 
 
-with Matthew John Cross.
-
+with Matthew John Cross.<br>
 *Handbook of Security Science.*  September 28, 2022. [Published Version](https://link.springer.com/rwe/10.1007/978-3-319-91875-4_83).
+---
 
 #### "Negative COVID-19 vaccine information on Twitter: content analysis"
 
-with Niko Yiannakoulias, J Connor Darlington, and Catherine E Slavik. 
-
+with Niko Yiannakoulias, J Connor Darlington, and Catherine E Slavik. <br>
 *JMIR infodemiology.* August 29, 2022. [Published Version](https://infodemiology.jmir.org/2022/2/e38485).
