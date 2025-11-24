@@ -26,10 +26,25 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 .masthead__inner-wrap,
 .masthead__menu,
 .greedy-nav {
-  background-color: #000a46 !important;
-  background: #000a46 !important;
+  background-color: $primary-color !important;
+  background: $primary-color !important;
 }
 
 .greedy-nav a::before {
   background-color: #fa6405 !important; // Change this to your desired underline color
+}
+
+
+.page__title a {
+  color: $primary-color !important; // Different color for page titles
+  text-decoration: none !important;
+}
+.page__title a:hover {
+  color: $fa6405 !important; // Hover color
+  text-decoration: none !important;
+}
+
+/* Keep regular content links as they are */
+.page__content a {
+  color: #5ac3b0 !important; // Your normal link color
 }
