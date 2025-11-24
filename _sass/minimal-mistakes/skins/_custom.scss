@@ -22,12 +22,12 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
   color: inherit;
 }
 
-.masthead {
-  background-color: #000a46; // Your custom navigation bar color
-}
-
-.masthead__inner-wrap {
-  background-color: #000a46 !important; // This fixes the inner background
+.masthead,
+.masthead__inner-wrap,
+.masthead__menu,
+.greedy-nav {
+  background-color: #000a46 !important;
+  background: #000a46 !important;
 }
 
 .greedy-nav a::before {
