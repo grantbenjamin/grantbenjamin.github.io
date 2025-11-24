@@ -55,10 +55,9 @@ $navicon-link-color-hover: #fff !default;
 }
 
 
-.greedy-nav__toggle {
-  color: #fff !important; // Change this to your desired color
-}
-
-.greedy-nav__toggle:hover {
-  color: #fa6405 !important; // Hover color (optional)
+/* If the above doesn't work, try targeting the bars directly */
+.greedy-nav__toggle div,
+.greedy-nav__toggle div::before,
+.greedy-nav__toggle div::after {
+  background: #fff !important; // Change this to your desired color
 }
