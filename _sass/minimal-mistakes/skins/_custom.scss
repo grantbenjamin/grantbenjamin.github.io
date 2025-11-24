@@ -10,8 +10,8 @@ $primary-color: #000a46 !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
 $link-color: #5ac3b0 !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$masthead-link-color: $fff !default;
+$masthead-link-color-hover: $fff !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
@@ -20,4 +20,8 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
+}
+
+.masthead {
+  background-color: #000a46 !important;   // 
 }
