@@ -11,7 +11,7 @@ $border-color: mix(#fff, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
 $link-color: #5ac3b0 !default;
 $masthead-link-color: #fff !default;
-$masthead-link-color-hover: #fa6405 !default;
+$masthead-link-color-hover: #fff !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 .page__footer {
@@ -23,5 +23,5 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 }
 
 .masthead {
-  background-color: #000a46; // Your custom navigation bar color
+  background-color: #fa6405; // Your custom navigation bar color
 }
