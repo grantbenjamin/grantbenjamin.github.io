@@ -48,3 +48,8 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 .page__content a {
   color: #5ac3b0 !important; // Your normal link color
 }
+
+.page {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
