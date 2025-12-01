@@ -31,7 +31,7 @@ with Benjamin Couillard and Jonathan Hall. <br>
 
 ## Works In Progress
 
-#### "Construction Productivity Stagnation"
+#### "Unlocking Construction Productivity"
 
 ---
 
