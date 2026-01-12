@@ -18,6 +18,17 @@ header:
 
 ---
 
+#### "Spatial Spillovers in the Attention Economy" [Working paper forthcoming](https://grantbenjamin.github.io/research/).
+
+<details>
+  <summary>Abstract</summary>
+  <div style="font-size: 0.85em; margin-left: 1em;">
+    Abstract Forthcoming
+  </div>
+</details>
+
+---
+
 #### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)" [Working paper](https://www.econstor.eu/handle/10419/280230).
 with Benjamin Couillard and Jonathan Hall. <br>
 *I4R Discussion Paper Series.* 
@@ -35,9 +46,6 @@ with Benjamin Couillard and Jonathan Hall. <br>
 
 ---
 
-#### "Spatial Spillovers in the Attention Economy"
-
----
 
 #### "Urban Reserves" 
 with Stephan Heblich
