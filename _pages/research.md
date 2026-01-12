@@ -18,7 +18,7 @@ header:
 
 ---
 
-#### "Spatial Spillovers in the Attention Economy" [Working paper forthcoming](https://grantbenjamin.github.io/research/).
+#### "Spatial Spillovers in the Attention Economy." [Working paper forthcoming](https://grantbenjamin.github.io/research/).
 
 <details>
   <summary>Abstract</summary>
@@ -29,7 +29,7 @@ header:
 
 ---
 
-#### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)" [Working paper](https://www.econstor.eu/handle/10419/280230).
+#### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)." [Working paper](https://www.econstor.eu/handle/10419/280230).
 with Benjamin Couillard and Jonathan Hall. <br>
 *I4R Discussion Paper Series.* 
 
@@ -42,12 +42,12 @@ with Benjamin Couillard and Jonathan Hall. <br>
 
 ## Works In Progress
 
-#### "Unlocking Construction Productivity"
+#### "Unlocking Construction Productivity."
 
 ---
 
 
-#### "Urban Reserves" 
+#### "Urban Reserves." 
 with Stephan Heblich
 
 ---
@@ -55,7 +55,7 @@ with Stephan Heblich
 
 ## Non-Economics Publications
 
-#### "Preventing and Countering Violent Extremism: Best Practices and Standardizations" 
+#### "Preventing and Countering Violent Extremism: Best Practices and Standardizations." 
 with Matthew John Cross.<br>
 *Handbook of Security Science.*  September 28, 2022. [Published Version](https://link.springer.com/rwe/10.1007/978-3-319-91875-4_83).
 
@@ -68,7 +68,7 @@ with Matthew John Cross.<br>
 
 ---
 
-#### "Negative COVID-19 vaccine information on Twitter: content analysis"
+#### "Negative COVID-19 vaccine information on Twitter: content analysis."
 with Niko Yiannakoulias, J Connor Darlington, and Catherine E Slavik. <br>
 *JMIR infodemiology.* August 29, 2022. [Published Version](https://infodemiology.jmir.org/2022/2/e38485).
 <details>
