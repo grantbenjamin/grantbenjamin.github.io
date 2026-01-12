@@ -57,7 +57,7 @@ with Stephan Heblich
 
 #### "Preventing and Countering Violent Extremism: Best Practices and Standardizations." 
 with Matthew John Cross.<br>
-*Handbook of Security Science.*  September 28, 2022. [Published Version](https://link.springer.com/rwe/10.1007/978-3-319-91875-4_83).
+*Handbook of Security Science.*  September 28, 2022. **[Published Version](https://link.springer.com/rwe/10.1007/978-3-319-91875-4_83).**
 
 <details>
   <summary>Abstract</summary>
@@ -70,7 +70,7 @@ with Matthew John Cross.<br>
 
 #### "Negative COVID-19 vaccine information on Twitter: content analysis."
 with Niko Yiannakoulias, J Connor Darlington, and Catherine E Slavik. <br>
-*JMIR infodemiology.* August 29, 2022. [Published Version](https://infodemiology.jmir.org/2022/2/e38485).
+*JMIR infodemiology.* August 29, 2022. **[Published Version](https://infodemiology.jmir.org/2022/2/e38485).**
 <details>
   <summary>Abstract</summary>
   <div style="font-size: 0.85em; margin-left: 1em;">
