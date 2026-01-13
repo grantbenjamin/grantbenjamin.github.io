@@ -4,7 +4,10 @@ permalink: /research/
 header:
   image: /assets/images/yukon1.jpeg
 ---
-<p style="font-size: 1.5em; font-weight: bold; margin-top: 0;">Working papers</p>
+
+<div style="margin-top: -2em;"></div>
+
+## Working papers
 
 #### "Braking Habits: The Impact of Leading Pedestrian Intervals." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820).
 *Revise and Resubmit at Journal of Public Economics.* <br>
