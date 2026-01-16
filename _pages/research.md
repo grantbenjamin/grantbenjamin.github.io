@@ -21,12 +21,12 @@ header:
 
 ---
 
-#### "Spatial Spillovers in the Attention Economy." [Working paper forthcoming](https://grantbenjamin.github.io/research/).
+#### "It Only Takes OneBite: Viral Reviews in the Attention Economy." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6073786).
 
 <details>
   <summary>Abstract</summary>
   <div style="font-size: 0.85em; margin-left: 1em;">
-    Abstract Forthcoming
+   In this era of information abundance, firms must compete for scarce consumer attention. Exploiting a unique quasi-experimental setting, I investigate how viral attention from a OneBite pizza video review impacts firm performance. After a OneBite review is posted to YouTube, total spending and total customers immediately increase at the reviewed pizzeria. The increase, however, critically depends on the review score. While scores < 7.0/10.0 do not affect firm performance and scores in the range [7.0,8.0) generate modest improvements, review scores ≥ 8.0 increase spending by over 47% and increase customers by over 52% in each of the first two months following the review. Despite the immediate increases, the effects are transitory, and all metrics revert to pretreatment levels within four months of the review. The trend reversion indicates that while revealed quality initially increases firm performance, viral attention fades, and more recent reviews divert consumers towards newly reviewed pizzerias; attention governs consumer choice. Rather than business-stealing, I determine that market expansion drives growth, as firm performance at nearby competitors remains constant. 
   </div>
 </details>
 
