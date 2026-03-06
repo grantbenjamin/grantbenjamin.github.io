@@ -45,15 +45,21 @@ with Benjamin Couillard and Jonathan Hall. <br>
 
 ## Works In Progress
 
+#### "Urban Reserves." 
+with Stephan Heblich
+
+---
+
+#### "Housing Affordability Under Tax Reforms." 
+
+---
+
 #### "Unlocking Construction Productivity."
 
 ---
 
 
-#### "Urban Reserves." 
-with Stephan Heblich
 
----
 
 
 ## Non-Economics Publications
