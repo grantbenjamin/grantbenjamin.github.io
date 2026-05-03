@@ -9,13 +9,19 @@
 .sidebar {
   // max-width: 180px;
   // min-width: 180px;
-   min-width: 280px;
-   max-width: 280px;
+   min-width: 220px;
+   max-width: 220px;
 
   height: auto !important;      // let it grow naturally with content
   min-height: 0 !important;     // remove any inherited min-height
   overflow: visible !important; // prevent scrollbars
-    
+
+  font-size: 16px;              // anchor sidebar text below $medium
+
+  @include breakpoint($medium) {
+    font-size: 20px;            // anchor sidebar text at $medium and above
+  }
+
   @include clearfix();
 // @include breakpoint(max-width $large) {
 //   /* fix z-index order of follow links */
@@ -126,7 +132,7 @@ margin-right: 0;
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 280px;
+  width: 220px;
   
   @include breakpoint($medium) {
     display: block;
@@ -156,7 +162,7 @@ margin-right: 0;
 
   .sidebar img {
     width: 45vw;        /* 60% of the viewport width */
-    max-width: 280px;    /* ignore previous max-width limits */
+    max-width: 220px;    /* ignore previous max-width limits */
     height: auto;       /* keep aspect ratio */
     display: block;     /* remove inline spacing */
     margin: 0 auto;     /* center the image */
@@ -350,26 +356,14 @@ text-decoration: underline;
   ========================================================================== */
 
 
-@media (min-width: 1280px) {
-.sidebar p,
-.sidebar li {
-  font-size: 0.75rem; /* = $type-size-6 = ~12px */
-}
-
-.sidebar .author__name,
-.sidebar .author__urls a {
-  font-size: 0.875rem; /* = $type-size-5 = ~14px */
-}
-}
-
 .wide .sidebar__right {
 margin-bottom: 1em;
 
 @include breakpoint($large) {
   .sidebar {
-    width: 280px;      // lock width
-    min-width: 280px;  // optional safety
-    max-width: 280px;  // optional safety
+    width: 220px;      // lock width
+    min-width: 220px;  // optional safety
+    max-width: 220px;  // optional safety
   }
 
   .sidebar.sticky {
