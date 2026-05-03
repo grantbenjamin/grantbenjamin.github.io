@@ -9,8 +9,8 @@
 .sidebar {
   // max-width: 180px;
   // min-width: 180px;
-   min-width: 220px;
-   max-width: 220px;
+   min-width: 240px;
+   max-width: 240px;
 
   height: auto !important;      // let it grow naturally with content
   min-height: 0 !important;     // remove any inherited min-height
@@ -132,19 +132,19 @@ margin-right: 0;
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 220px;
-  
+  width: 240px;
+
   @include breakpoint($medium) {
     display: block;
     width: auto;
     height: auto;
   }
-  
+
   img {
     width: 100%;       /* fills the width of the sidebar */
     height: auto;      /* keeps aspect ratio */
     border-radius: 8%;
-    max-width: 480px;
+    max-width: 240px;
 
     @include breakpoint($medium) {
       padding: 0px;
@@ -155,14 +155,14 @@ margin-right: 0;
 }
 
   
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .sidebar {
     width: 100%;       /* sidebar fills the screen */
   }
 
   .sidebar img {
     width: 45vw;        /* 60% of the viewport width */
-    max-width: 220px;    /* ignore previous max-width limits */
+    max-width: 240px;    /* ignore previous max-width limits */
     height: auto;       /* keep aspect ratio */
     display: block;     /* remove inline spacing */
     margin: 0 auto;     /* center the image */
@@ -361,9 +361,9 @@ margin-bottom: 1em;
 
 @include breakpoint($large) {
   .sidebar {
-    width: 220px;      // lock width
-    min-width: 220px;  // optional safety
-    max-width: 220px;  // optional safety
+    width: 240px;      // lock width
+    min-width: 240px;  // optional safety
+    max-width: 240px;  // optional safety
   }
 
   .sidebar.sticky {
