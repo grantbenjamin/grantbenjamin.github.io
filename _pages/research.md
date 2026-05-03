@@ -2,7 +2,7 @@
 title: Research
 permalink: /research/
 header:
-  image: /assets/images/yukon1.jpeg
+  image: /assets/images/yukon4.jpeg
 ---
 
 <div style="margin-top: -2em;"></div>
