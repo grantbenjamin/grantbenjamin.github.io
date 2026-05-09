@@ -76,6 +76,8 @@ Science aspires to be cumulative. Reproducibility efforts strengthen science by 
   </div>
 </details>
 
+---
+
 #### "Preventing and Countering Violent Extremism: Best Practices and Standardizations." 
 with Matthew John Cross.<br>
 *Handbook of Security Science.*  September 28, 2022. **[Published Version](https://link.springer.com/rwe/10.1007/978-3-319-91875-4_83).**
