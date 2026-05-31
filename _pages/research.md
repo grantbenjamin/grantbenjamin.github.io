@@ -22,6 +22,7 @@ header:
 ---
 
 #### "It Only Takes OneBite: Viral Reviews in the Attention Economy." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6073786).
+*Presented at:* 60th Canadian Economics Association Meetings <br>
 
 <details>
   <summary>Abstract</summary>
