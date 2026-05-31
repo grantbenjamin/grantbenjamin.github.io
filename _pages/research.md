@@ -68,7 +68,7 @@ with Stephan Heblich
 
 #### "Reproducibility and Robustness of Economics and Political Science Research." 
 with Abel Brodeur et al.<br>
-*Naturee.*  April 1, 2026. **[Published Version](https://www.nature.com/articles/s41586-026-10251-x).**
+*Nature.*  April 1, 2026. **[Published Version](https://www.nature.com/articles/s41586-026-10251-x).**
 
 <details>
   <summary>Abstract</summary>
