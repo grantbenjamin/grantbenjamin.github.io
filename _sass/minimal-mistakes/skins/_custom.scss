@@ -10,6 +10,7 @@ $primary-color: #000a46 !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
 $link-color: #1a4a8f !default;
+$link-color-hover: #fa6405 !default; // accent orange on hover
 $masthead-link-color: #fff !default;
 $masthead-link-color-hover: #fff !default;
 $navicon-link-color-hover: #fff !default;
@@ -44,9 +45,12 @@ $navicon-link-color-hover: #fff !default;
   text-decoration: none !important;
 }
 
-/* Content links use the global link color */
+/* Content links use the global link color, accent orange on hover */
 .page__content a {
   color: $link-color !important;
+}
+.page__content a:hover {
+  color: #fa6405 !important;
 }
 
 .page {
