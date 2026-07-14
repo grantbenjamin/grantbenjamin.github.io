@@ -32,7 +32,7 @@ Use `curl` (not WebFetch — it summarizes instead of returning raw HTML).
 - **Space below header** → `.masthead { border-bottom, margin-bottom }` and `.page__hero { margin-top }` in `_page.scss`.
 - **Hero image behavior** → `.page__hero` / `.page__hero-image` in `_sass/minimal-mistakes/_page.scss`.
 - **Colors / skin** → `_sass/minimal-mistakes/skins/_custom.scss`.
-- **Typography scale** → `$type-size-*` and `$h-size-*` in `_sass/minimal-mistakes/_variables.scss`. Body font is `1em` and html scales 16→22px across breakpoints (`_reset.scss`).
+- **Typography scale** → `$type-size-*` and `$h-size-*` in `_sass/minimal-mistakes/_variables.scss`. Body font is `1em` and html scales 16→17px across breakpoints (`_reset.scss`). Headings are semibold 600 (`_base.scss`), site title too (`_masthead.scss`).
 - **Nav menu items** → `_data/navigation.yml`.
 - **Home page copy** → `_pages/home.md`.
 

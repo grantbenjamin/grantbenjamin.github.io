@@ -3,13 +3,13 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #eeeeee !default;
-$text-color: #222831 !default;
-$muted-text-color: #393e46 !default;
+$background-color: #ffffff !default;
+$text-color: #494e52 !default;
+$muted-text-color: #646769 !default;
 $primary-color: #000a46 !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
 $footer-background-color: $primary-color !default;
-$link-color: #5ac3b0 !default;
+$link-color: #1a4a8f !default;
 $masthead-link-color: #fff !default;
 $masthead-link-color-hover: #fff !default;
 $navicon-link-color-hover: #fff !default;
@@ -44,9 +44,9 @@ $navicon-link-color-hover: #fff !default;
   text-decoration: none !important;
 }
 
-/* Keep regular content links as they are */
+/* Content links use the global link color */
 .page__content a {
-  color: #5ac3b0 !important; // Your normal link color
+  color: $link-color !important;
 }
 
 .page {

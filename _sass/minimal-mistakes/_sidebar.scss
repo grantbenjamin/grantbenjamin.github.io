@@ -142,8 +142,10 @@ margin-right: 0;
 
   img {
     width: 100%;       /* fills the width of the sidebar */
-    height: auto;      /* keeps aspect ratio */
-    border-radius: 8%;
+    aspect-ratio: 1 / 1;        /* square crop for a true circle */
+    object-fit: cover;
+    object-position: 50% 25%;   /* keep the face in frame */
+    border-radius: 50%;
     max-width: 240px;
 
     @include breakpoint($medium) {
