@@ -34,7 +34,7 @@ header:
 ---
 
 #### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)." [Working paper](https://www.econstor.eu/handle/10419/280230).
-with Benjamin Couillard and Jonathan Hall. <br>
+with [Benjamin Couillard](https://sites.google.com/view/ben-couillard/home) and [Jonathan Hall](https://jhall.github.io/). <br>
 *I4R Discussion Paper Series.* 
 
 <details>
@@ -46,20 +46,19 @@ with Benjamin Couillard and Jonathan Hall. <br>
 
 ## Works In Progress
 
+#### "The Wheels on the Bus Go First."
+with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
+
+---
+
 #### "Urban Reserves." 
-with Stephan Heblich
+with [Stephan Heblich](https://sites.google.com/view/stephanheblich/about)
 
 ---
 
 #### "Housing Affordability Under Tax Reforms." 
 
 ---
-
-#### "Unlocking Construction Productivity."
-
----
-
-
 
 
 
