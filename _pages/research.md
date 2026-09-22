@@ -78,7 +78,6 @@ with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
       <span>Figure 2</span>
     </button>
   </div>
-  <p class="figure-gallery__hint">Select a thumbnail to change the figure. Click the large figure to open it at full resolution.</p>
 </details>
 
 <script>
