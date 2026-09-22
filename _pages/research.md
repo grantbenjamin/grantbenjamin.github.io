@@ -49,6 +49,18 @@ with [Benjamin Couillard](https://sites.google.com/view/ben-couillard/home) and 
 #### "The Wheels on the Bus Go First."
 with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
 
+<details>
+  <summary>Figures</summary>
+  <figure style="margin: 1em 0; text-align: center;">
+    <a href="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg" alt="Map of average traffic speeds in downtown Toronto" style="display: block; width: 100%; height: auto; margin: 0 auto;">
+    </a>
+    <figcaption style="margin-top: 0.5em; font-size: 0.85em; color: #646769;">
+      <strong>Figure 1.</strong> Average traffic speeds in downtown Toronto. Click the figure to view it at full resolution.
+    </figcaption>
+  </figure>
+</details>
+
 ---
 
 #### "Urban Reserves." 
