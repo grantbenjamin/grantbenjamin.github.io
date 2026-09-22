@@ -49,25 +49,63 @@ with [Benjamin Couillard](https://sites.google.com/view/ben-couillard/home) and 
 #### "The Wheels on the Bus Go First."
 with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
 
-<details>
+<details class="figure-gallery">
   <summary>Figures</summary>
-  <figure style="margin: 1em 0; text-align: center;">
-    <a href="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg" alt="Map of average traffic speeds in downtown Toronto" style="display: block; width: 100%; height: auto; margin: 0 auto;">
+  <figure class="figure-gallery__viewer">
+    <a class="figure-gallery__full-resolution" href="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg" target="_blank" rel="noopener noreferrer" aria-label="Open selected figure at full resolution">
+      <img class="figure-gallery__main-image" src="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg" alt="Map of average traffic speeds in downtown Toronto">
     </a>
-    <figcaption style="margin-top: 0.5em; font-size: 0.85em; color: #646769;">
-      <strong>Figure 1.</strong> Average traffic speeds in downtown Toronto. Click the figure to view it at full resolution.
+    <figcaption class="figure-gallery__caption" aria-live="polite">
+      <strong>Figure 1.</strong> <span>Average traffic speeds in downtown Toronto.</span>
     </figcaption>
   </figure>
-  <figure style="margin: 1.5em 0 1em; text-align: center;">
-    <a href="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" target="_blank" rel="noopener noreferrer">
-      <img src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" alt="Average bus and streetcar speeds by hour of day" style="display: block; width: 100%; height: auto; margin: 0 auto;">
-    </a>
-    <figcaption style="margin-top: 0.5em; font-size: 0.85em; color: #646769;">
-      <strong>Figure 2.</strong> Average bus and streetcar speeds by hour of day. Click the figure to view it at full resolution.
-    </figcaption>
-  </figure>
+
+  <div class="figure-gallery__thumbnails" role="list" aria-label="Select a figure">
+    <button class="figure-gallery__thumbnail is-active" type="button" role="listitem" aria-pressed="true"
+      data-src="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg"
+      data-alt="Map of average traffic speeds in downtown Toronto"
+      data-number="Figure 1."
+      data-caption="Average traffic speeds in downtown Toronto.">
+      <img src="/assets/images/wheels-on-the-bus/downtown-speed-map.jpg" alt="" loading="lazy">
+      <span>Figure 1</span>
+    </button>
+    <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
+      data-src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png"
+      data-alt="Average bus and streetcar speeds by hour of day"
+      data-number="Figure 2."
+      data-caption="Average bus and streetcar speeds by hour of day.">
+      <img src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" alt="" loading="lazy">
+      <span>Figure 2</span>
+    </button>
+  </div>
+  <p class="figure-gallery__hint">Select a thumbnail to change the figure. Click the large figure to open it at full resolution.</p>
 </details>
+
+<script>
+  document.querySelectorAll('.figure-gallery').forEach(function (gallery) {
+    var mainImage = gallery.querySelector('.figure-gallery__main-image');
+    var fullResolutionLink = gallery.querySelector('.figure-gallery__full-resolution');
+    var captionNumber = gallery.querySelector('.figure-gallery__caption strong');
+    var captionText = gallery.querySelector('.figure-gallery__caption span');
+    var thumbnails = gallery.querySelectorAll('.figure-gallery__thumbnail');
+
+    thumbnails.forEach(function (thumbnail) {
+      thumbnail.addEventListener('click', function () {
+        mainImage.src = thumbnail.dataset.src;
+        mainImage.alt = thumbnail.dataset.alt;
+        fullResolutionLink.href = thumbnail.dataset.src;
+        captionNumber.textContent = thumbnail.dataset.number;
+        captionText.textContent = thumbnail.dataset.caption;
+
+        thumbnails.forEach(function (item) {
+          var isSelected = item === thumbnail;
+          item.classList.toggle('is-active', isSelected);
+          item.setAttribute('aria-pressed', isSelected.toString());
+        });
+      });
+    });
+  });
+</script>
 
 ---
 

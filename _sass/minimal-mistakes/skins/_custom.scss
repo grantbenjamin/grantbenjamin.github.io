@@ -58,6 +58,77 @@ $navicon-link-color-hover: #fff !default;
   padding-top: 0 !important;
 }
 
+/* Compact, selectable figure gallery used on the Research page */
+.figure-gallery {
+  margin-top: 0.75em;
+}
+
+.figure-gallery__viewer {
+  margin: 1em 0 0.75em;
+  text-align: center;
+}
+
+.figure-gallery__main-image {
+  display: block;
+  width: 100%;
+  max-height: 430px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.figure-gallery__caption {
+  margin-top: 0.5em;
+  color: $muted-text-color;
+  font-size: 0.85em;
+}
+
+.figure-gallery__thumbnails {
+  display: flex;
+  gap: 0.65em;
+  overflow-x: auto;
+  padding: 0.25em 0.15em 0.6em;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.figure-gallery__thumbnail {
+  flex: 0 0 104px;
+  padding: 4px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background: #fff;
+  color: $muted-text-color;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.7em;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.figure-gallery__thumbnail img {
+  display: block;
+  width: 92px;
+  height: 58px;
+  margin-bottom: 4px;
+  object-fit: cover;
+}
+
+.figure-gallery__thumbnail:hover,
+.figure-gallery__thumbnail:focus-visible {
+  border-color: $link-color;
+  outline: none;
+}
+
+.figure-gallery__thumbnail.is-active {
+  border-color: #fa6405;
+}
+
+.figure-gallery__hint {
+  margin: 0 0 0.75em;
+  color: $muted-text-color;
+  font-size: 0.7em;
+}
+
 
 /* If the above doesn't work, try targeting the bars directly */
 .greedy-nav__toggle div,
