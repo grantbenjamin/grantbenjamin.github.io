@@ -59,6 +59,14 @@ with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
       <strong>Figure 1.</strong> Average traffic speeds in downtown Toronto. Click the figure to view it at full resolution.
     </figcaption>
   </figure>
+  <figure style="margin: 1.5em 0 1em; text-align: center;">
+    <a href="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" alt="Average bus and streetcar speeds by hour of day" style="display: block; width: 100%; height: auto; margin: 0 auto;">
+    </a>
+    <figcaption style="margin-top: 0.5em; font-size: 0.85em; color: #646769;">
+      <strong>Figure 2.</strong> Average bus and streetcar speeds by hour of day. Click the figure to view it at full resolution.
+    </figcaption>
+  </figure>
 </details>
 
 ---
