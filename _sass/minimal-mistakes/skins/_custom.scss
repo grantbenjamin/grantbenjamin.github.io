@@ -64,21 +64,23 @@ $navicon-link-color-hover: #fff !default;
 }
 
 .project-dropdowns__controls {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5em;
 }
 
 .project-dropdowns__toggle {
-  width: 100%;
-  padding: 0.45em 0.6em;
-  border: 1px solid $border-color;
-  border-radius: 4px;
-  background: #fff;
+  width: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
   color: $text-color;
   cursor: pointer;
   font: inherit;
-  font-size: 0.9em;
+  font-size: 1em;
   text-align: left;
 }
 
@@ -86,7 +88,7 @@ $navicon-link-color-hover: #fff !default;
   content: "\25B8";
   display: inline-block;
   width: 1em;
-  color: #fa6405;
+  color: $text-color;
 }
 
 .project-dropdowns__toggle[aria-expanded="true"]::before {
@@ -94,10 +96,13 @@ $navicon-link-color-hover: #fff !default;
 }
 
 .project-dropdowns__toggle:hover,
-.project-dropdowns__toggle:focus-visible,
 .project-dropdowns__toggle[aria-expanded="true"] {
-  border-color: $link-color;
-  outline: none;
+  color: $text-color;
+}
+
+.project-dropdowns__toggle:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: 3px;
 }
 
 .project-dropdowns__panel {
