@@ -72,6 +72,7 @@ $navicon-link-color-hover: #fff !default;
 }
 
 .project-dropdowns__toggle {
+  display: list-item;
   width: auto;
   padding: 0;
   border: 0;
@@ -84,20 +85,13 @@ $navicon-link-color-hover: #fff !default;
   font-weight: inherit;
   line-height: inherit;
   letter-spacing: inherit;
+  list-style-position: inside;
+  list-style-type: disclosure-closed;
   text-align: left;
 }
 
-.project-dropdowns__toggle::before {
-  content: "\25B6";
-  display: inline-block;
-  width: 1.18em;
-  color: $text-color;
-  font-size: 1em;
-  vertical-align: 0;
-}
-
-.project-dropdowns__toggle[aria-expanded="true"]::before {
-  content: "\25BC";
+.project-dropdowns__toggle[aria-expanded="true"] {
+  list-style-type: disclosure-open;
 }
 
 .project-dropdowns__toggle:hover,
