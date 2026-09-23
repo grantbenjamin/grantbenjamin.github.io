@@ -93,17 +93,17 @@ $navicon-link-color-hover: #fff !default;
   content: "";
   width: 0;
   height: 0;
-  margin-right: 0.55em;
-  border-top: 0.32em solid transparent;
-  border-bottom: 0.32em solid transparent;
-  border-left: 0.5em solid currentColor;
+  margin-right: 0.5em;
+  border-top: 0.38em solid transparent;
+  border-bottom: 0.38em solid transparent;
+  border-left: 0.6em solid currentColor;
 }
 
 .project-dropdowns__toggle[aria-expanded="true"]::before {
-  border-top: 0.5em solid currentColor;
-  border-right: 0.32em solid transparent;
+  border-top: 0.6em solid currentColor;
+  border-right: 0.38em solid transparent;
   border-bottom: 0;
-  border-left: 0.32em solid transparent;
+  border-left: 0.38em solid transparent;
 }
 
 .project-dropdowns__toggle:hover,
