@@ -49,8 +49,19 @@ with [Benjamin Couillard](https://sites.google.com/view/ben-couillard/home) and 
 #### "The Wheels on the Bus Go First."
 with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
 
-<details class="figure-gallery">
-  <summary>Figures</summary>
+<div class="project-dropdowns" data-project-dropdowns>
+  <div class="project-dropdowns__controls">
+    <button type="button" class="project-dropdowns__toggle" aria-expanded="false" aria-controls="wheels-abstract">Abstract</button>
+    <button type="button" class="project-dropdowns__toggle" aria-expanded="false" aria-controls="wheels-figures">Figures</button>
+  </div>
+
+  <section id="wheels-abstract" class="project-dropdowns__panel" hidden>
+  <div style="font-size: 0.85em; margin-left: 1em;">
+    This paper estimates the effects of transit signal priority (TSP) on traffic congestion, public transit efficiency, and commuter modal choice. TSP is any mechanism or policy that gives priority to public transit vehicles at signalized intersections, ahead of private vehicles. While passive TSP includes signal coordination along transit routes that are optimized for transit, the recent transit expansions in Toronto have generated a call from the public to revisit and update the transit signal priority measures. As part of the City of Toronto's MoveTO 2021-25 action plan to modernize Toronto's transportation system, the City of Toronto introduced Advanced Transit Signal Priority (ATSP). ATSP mechanisms undertake measures to aid individual transit vehicles by detecting the vehicles when they approach the intersection. For example, signal pre-emption measures detect when a transit vehicle is approaching the intersection and keep the traffic signal green until the transit vehicle is through. We construct a new comprehensive dataset that combines minute-by-minute real-time public transit vehicle speeds and occupancy from GTFS data from December 2025 to September 2026, road-segment speeds from HERE Technologies from January 2017 to August 2026, and the location and installation date of every TSP intersection in Toronto. To investigate how TSP affects transportation networks within the city, we exploit the quasi-exogenous timing when the City of Toronto installs TSP at an intersection and use a staggered event study to evaluate the dynamic changes in both private and public traffic speeds, traffic congestion, and transit vehicle occupancy. With the plan to install ATSP at all traffic signals within the city, understanding the efficacy of transit signal priority is just as much an open and essential public policy question as it is an insight into how commuters make decisions.
+  </div>
+  </section>
+
+  <section id="wheels-figures" class="project-dropdowns__panel figure-gallery" hidden>
   <figure class="figure-gallery__viewer">
     <a class="figure-gallery__full-resolution" href="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" target="_blank" rel="noopener noreferrer" aria-label="Open selected figure at full resolution">
       <img class="figure-gallery__main-image" src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" alt="Map of average TTC vehicle speeds in downtown Toronto">
@@ -86,9 +97,33 @@ with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
       <span>Figure 3</span>
     </button>
   </div>
-</details>
+  </section>
+</div>
 
 <script>
+  document.querySelectorAll('[data-project-dropdowns]').forEach(function (dropdownGroup) {
+    var toggles = dropdownGroup.querySelectorAll('.project-dropdowns__toggle');
+    var panels = dropdownGroup.querySelectorAll('.project-dropdowns__panel');
+
+    toggles.forEach(function (toggle) {
+      toggle.addEventListener('click', function () {
+        var wasOpen = toggle.getAttribute('aria-expanded') === 'true';
+
+        toggles.forEach(function (item) {
+          item.setAttribute('aria-expanded', 'false');
+        });
+        panels.forEach(function (panel) {
+          panel.hidden = true;
+        });
+
+        if (!wasOpen) {
+          toggle.setAttribute('aria-expanded', 'true');
+          document.getElementById(toggle.getAttribute('aria-controls')).hidden = false;
+        }
+      });
+    });
+  });
+
   document.querySelectorAll('.figure-gallery').forEach(function (gallery) {
     var mainImage = gallery.querySelector('.figure-gallery__main-image');
     var fullResolutionLink = gallery.querySelector('.figure-gallery__full-resolution');

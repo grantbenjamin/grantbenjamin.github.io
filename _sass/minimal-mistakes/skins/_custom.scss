@@ -58,6 +58,56 @@ $navicon-link-color-hover: #fff !default;
   padding-top: 0 !important;
 }
 
+/* Paired, mutually exclusive project dropdowns */
+.project-dropdowns {
+  margin-top: 0.75em;
+}
+
+.project-dropdowns__controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75em;
+}
+
+.project-dropdowns__toggle {
+  width: 100%;
+  padding: 0.45em 0.6em;
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  background: #fff;
+  color: $text-color;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.project-dropdowns__toggle::before {
+  content: "\25B8";
+  display: inline-block;
+  width: 1em;
+  color: #fa6405;
+}
+
+.project-dropdowns__toggle[aria-expanded="true"]::before {
+  content: "\25BE";
+}
+
+.project-dropdowns__toggle:hover,
+.project-dropdowns__toggle:focus-visible,
+.project-dropdowns__toggle[aria-expanded="true"] {
+  border-color: $link-color;
+  outline: none;
+}
+
+.project-dropdowns__panel {
+  margin-top: 0.75em;
+}
+
+.project-dropdowns__panel[hidden] {
+  display: none;
+}
+
 /* Compact, selectable figure gallery used on the Research page */
 .figure-gallery {
   margin-top: 0.75em;
