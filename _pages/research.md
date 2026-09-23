@@ -52,30 +52,38 @@ with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
 <details class="figure-gallery">
   <summary>Figures</summary>
   <figure class="figure-gallery__viewer">
-    <a class="figure-gallery__full-resolution" href="/assets/images/wheels-on-the-bus/downtown-tsp-map.png" target="_blank" rel="noopener noreferrer" aria-label="Open selected figure at full resolution">
-      <img class="figure-gallery__main-image" src="/assets/images/wheels-on-the-bus/downtown-tsp-map.png" alt="Map of transit signal priority intersections and public transit routes in downtown Toronto">
+    <a class="figure-gallery__full-resolution" href="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" target="_blank" rel="noopener noreferrer" aria-label="Open selected figure at full resolution">
+      <img class="figure-gallery__main-image" src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" alt="Map of average TTC vehicle speeds in downtown Toronto">
     </a>
     <figcaption class="figure-gallery__caption" aria-live="polite">
-      <strong>Figure 1.</strong> <span>Transit signal priority intersections and public transit surface routes in downtown Toronto.</span>
+      <strong>Figure 1.</strong> <span>Average TTC vehicle speeds in downtown Toronto.</span>
     </figcaption>
   </figure>
 
   <div class="figure-gallery__thumbnails" role="list" aria-label="Select a figure">
     <button class="figure-gallery__thumbnail is-active" type="button" role="listitem" aria-pressed="true"
+      data-src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png"
+      data-alt="Map of average TTC vehicle speeds in downtown Toronto"
+      data-number="Figure 1."
+      data-caption="Average TTC vehicle speeds in downtown Toronto.">
+      <img src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" alt="" loading="lazy">
+      <span>Figure 1</span>
+    </button>
+    <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
       data-src="/assets/images/wheels-on-the-bus/downtown-tsp-map.png"
       data-alt="Map of transit signal priority intersections and public transit routes in downtown Toronto"
-      data-number="Figure 1."
+      data-number="Figure 2."
       data-caption="Transit signal priority intersections and public transit surface routes in downtown Toronto.">
       <img src="/assets/images/wheels-on-the-bus/downtown-tsp-map.png" alt="" loading="lazy">
-      <span>Figure 1</span>
+      <span>Figure 2</span>
     </button>
     <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
       data-src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png"
       data-alt="Average bus and streetcar speeds by hour of day"
-      data-number="Figure 2."
+      data-number="Figure 3."
       data-caption="Average bus and streetcar speeds by hour of day.">
       <img src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" alt="" loading="lazy">
-      <span>Figure 2</span>
+      <span>Figure 3</span>
     </button>
   </div>
 </details>
