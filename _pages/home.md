@@ -1,5 +1,6 @@
 ---
 permalink: /
+title: "Grant Benjamin"
 author_profile: true
 classes: wide
 header:
