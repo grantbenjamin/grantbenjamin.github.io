@@ -58,46 +58,33 @@ $navicon-link-color-hover: #fff !default;
   padding-top: 0 !important;
 }
 
-/* Side-by-side native dropdowns with full-width, mutually exclusive panels */
+/* Side-by-side native dropdown controls with separate full-width panels */
 .project-dropdowns {
-  display: grid;
-  grid-template-columns: max-content max-content minmax(0, 1fr);
-  grid-template-rows: auto auto;
-  column-gap: 1.5em;
   width: 100%;
   margin-top: 0.75em;
 }
 
-.project-dropdowns__item {
-  display: contents;
+.project-dropdowns__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5em;
 }
 
-.project-dropdowns__item > summary {
-  grid-row: 1;
+.project-dropdowns__item summary {
   cursor: pointer;
 }
 
-.project-dropdowns__item:first-of-type > summary {
-  grid-column: 1;
-}
-
-.project-dropdowns__item:nth-of-type(2) > summary {
-  grid-column: 2;
-}
-
-.project-dropdowns__item:not([open]) > .project-dropdowns__panel {
-  display: none;
-}
-
-.project-dropdowns__item[open] > .project-dropdowns__panel {
+.project-dropdowns__panel {
   display: block;
-  grid-column: 1 / -1;
-  grid-row: 2;
   width: 100%;
   max-width: 100%;
-  min-width: 0;
   margin-top: 0.75em;
   overflow-wrap: break-word;
+}
+
+.project-dropdowns__panel[hidden] {
+  display: none;
 }
 
 /* Compact, selectable figure gallery used on the Research page */
