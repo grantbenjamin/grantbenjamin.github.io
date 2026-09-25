@@ -58,30 +58,21 @@ $navicon-link-color-hover: #fff !default;
   padding-top: 0 !important;
 }
 
-/* Paired, mutually exclusive project dropdowns */
+/* Mutually exclusive project dropdowns, matching the standard research layout */
 .project-dropdowns {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-template-rows: auto auto;
-  column-gap: 1.5em;
   margin-top: 0.75em;
 }
 
 .project-dropdowns__item {
-  display: contents;
+  display: block;
 }
 
-.project-dropdowns__item > summary {
-  grid-row: 1;
+.project-dropdowns__item + .project-dropdowns__item {
+  margin-top: 0.25em;
+}
+
+.project-dropdowns__item summary {
   cursor: pointer;
-}
-
-.project-dropdowns__item:first-of-type > summary {
-  grid-column: 1;
-}
-
-.project-dropdowns__item:nth-of-type(2) > summary {
-  grid-column: 2;
 }
 
 .project-dropdowns__item:not([open]) > .project-dropdowns__panel {
@@ -90,10 +81,10 @@ $navicon-link-color-hover: #fff !default;
 
 .project-dropdowns__item[open] > .project-dropdowns__panel {
   display: block;
-  grid-column: 1 / -1;
-  grid-row: 2;
-  min-width: 0;
+  width: 100%;
+  max-width: 100%;
   margin-top: 0.75em;
+  overflow-wrap: break-word;
 }
 
 /* Compact, selectable figure gallery used on the Research page */
@@ -102,6 +93,7 @@ $navicon-link-color-hover: #fff !default;
 }
 
 .figure-gallery__viewer {
+  width: 100%;
   margin: 1em 0 0.75em;
   text-align: center;
 }
