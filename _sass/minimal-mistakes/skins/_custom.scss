@@ -94,16 +94,16 @@ $navicon-link-color-hover: #fff !default;
   width: 0;
   height: 0;
   margin-right: 0.52em;
-  border-top: 0.35em solid transparent;
-  border-bottom: 0.35em solid transparent;
-  border-left: 0.55em solid currentColor;
+  border-top: 0.33em solid transparent;
+  border-bottom: 0.33em solid transparent;
+  border-left: 0.53em solid currentColor;
 }
 
 .project-dropdowns__toggle[aria-expanded="true"]::before {
-  border-top: 0.55em solid currentColor;
-  border-right: 0.35em solid transparent;
+  border-top: 0.53em solid currentColor;
+  border-right: 0.33em solid transparent;
   border-bottom: 0;
-  border-left: 0.35em solid transparent;
+  border-left: 0.33em solid transparent;
 }
 
 .project-dropdowns__toggle:hover,
