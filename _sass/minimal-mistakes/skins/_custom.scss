@@ -60,68 +60,40 @@ $navicon-link-color-hover: #fff !default;
 
 /* Paired, mutually exclusive project dropdowns */
 .project-dropdowns {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: auto auto;
+  column-gap: 1.5em;
   margin-top: 0.75em;
 }
 
-.project-dropdowns__controls {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1.5em;
+.project-dropdowns__item {
+  display: contents;
 }
 
-.project-dropdowns__toggle {
-  display: inline-flex;
-  align-items: center;
-  width: auto;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  background: transparent;
-  color: $text-color;
+.project-dropdowns__item > summary {
+  grid-row: 1;
   cursor: pointer;
-  font: inherit;
-  font-size: 1em;
-  font-weight: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  text-align: left;
 }
 
-.project-dropdowns__toggle::before {
-  content: "";
-  width: 0;
-  height: 0;
-  margin-right: 0.52em;
-  border-top: 0.33em solid transparent;
-  border-bottom: 0.33em solid transparent;
-  border-left: 0.53em solid currentColor;
+.project-dropdowns__item:first-of-type > summary {
+  grid-column: 1;
 }
 
-.project-dropdowns__toggle[aria-expanded="true"]::before {
-  border-top: 0.53em solid currentColor;
-  border-right: 0.33em solid transparent;
-  border-bottom: 0;
-  border-left: 0.33em solid transparent;
+.project-dropdowns__item:nth-of-type(2) > summary {
+  grid-column: 2;
 }
 
-.project-dropdowns__toggle:hover,
-.project-dropdowns__toggle[aria-expanded="true"] {
-  color: $text-color;
-}
-
-.project-dropdowns__toggle:focus-visible {
-  outline: 2px solid $link-color;
-  outline-offset: 3px;
-}
-
-.project-dropdowns__panel {
-  margin-top: 0.75em;
-}
-
-.project-dropdowns__panel[hidden] {
+.project-dropdowns__item:not([open]) > .project-dropdowns__panel {
   display: none;
+}
+
+.project-dropdowns__item[open] > .project-dropdowns__panel {
+  display: block;
+  grid-column: 1 / -1;
+  grid-row: 2;
+  min-width: 0;
+  margin-top: 0.75em;
 }
 
 /* Compact, selectable figure gallery used on the Research page */

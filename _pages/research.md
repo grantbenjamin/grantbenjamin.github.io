@@ -50,75 +50,69 @@ with [Benjamin Couillard](https://sites.google.com/view/ben-couillard/home) and 
 with [Devin Bissky-Dziadyk](https://bisskydziadyk.github.io/)
 
 <div class="project-dropdowns" data-project-dropdowns>
-  <div class="project-dropdowns__controls">
-    <button type="button" class="project-dropdowns__toggle" aria-expanded="false" aria-controls="wheels-abstract">Abstract</button>
-    <button type="button" class="project-dropdowns__toggle" aria-expanded="false" aria-controls="wheels-figures">Figures</button>
-  </div>
+  <details class="project-dropdowns__item" name="wheels-sections">
+    <summary>Abstract</summary>
+    <div class="project-dropdowns__panel">
+      <div style="font-size: 0.85em; margin-left: 1em;">
+        This paper estimates the effects of transit signal priority (TSP) on traffic congestion, public transit efficiency, and commuter modal choice. TSP is any mechanism or policy that gives priority to public transit vehicles at signalized intersections, ahead of private vehicles. While passive TSP includes signal coordination along transit routes that are optimized for transit, the recent transit expansions in Toronto have generated a call from the public to revisit and update the transit signal priority measures. As part of the City of Toronto's MoveTO 2021-25 action plan to modernize Toronto's transportation system, the City of Toronto introduced Advanced Transit Signal Priority (ATSP). ATSP mechanisms undertake measures to aid individual transit vehicles by detecting the vehicles when they approach the intersection. For example, signal pre-emption measures detect when a transit vehicle is approaching the intersection and keep the traffic signal green until the transit vehicle is through. We construct a new comprehensive dataset that combines minute-by-minute real-time public transit vehicle speeds and occupancy from GTFS data from December 2025 to September 2026, road-segment speeds from HERE Technologies from January 2017 to August 2026, and the location and installation date of every TSP intersection in Toronto. To investigate how TSP affects transportation networks within the city, we exploit the quasi-exogenous timing when the City of Toronto installs TSP at an intersection and use a staggered event study to evaluate the dynamic changes in both private and public traffic speeds, traffic congestion, and transit vehicle occupancy. With the plan to install ATSP at all traffic signals within the city, understanding the efficacy of transit signal priority is just as much an open and essential public policy question as it is an insight into how commuters make decisions.
+      </div>
+    </div>
+  </details>
 
-  <section id="wheels-abstract" class="project-dropdowns__panel" hidden>
-  <div style="font-size: 0.85em; margin-left: 1em;">
-    This paper estimates the effects of transit signal priority (TSP) on traffic congestion, public transit efficiency, and commuter modal choice. TSP is any mechanism or policy that gives priority to public transit vehicles at signalized intersections, ahead of private vehicles. While passive TSP includes signal coordination along transit routes that are optimized for transit, the recent transit expansions in Toronto have generated a call from the public to revisit and update the transit signal priority measures. As part of the City of Toronto's MoveTO 2021-25 action plan to modernize Toronto's transportation system, the City of Toronto introduced Advanced Transit Signal Priority (ATSP). ATSP mechanisms undertake measures to aid individual transit vehicles by detecting the vehicles when they approach the intersection. For example, signal pre-emption measures detect when a transit vehicle is approaching the intersection and keep the traffic signal green until the transit vehicle is through. We construct a new comprehensive dataset that combines minute-by-minute real-time public transit vehicle speeds and occupancy from GTFS data from December 2025 to September 2026, road-segment speeds from HERE Technologies from January 2017 to August 2026, and the location and installation date of every TSP intersection in Toronto. To investigate how TSP affects transportation networks within the city, we exploit the quasi-exogenous timing when the City of Toronto installs TSP at an intersection and use a staggered event study to evaluate the dynamic changes in both private and public traffic speeds, traffic congestion, and transit vehicle occupancy. With the plan to install ATSP at all traffic signals within the city, understanding the efficacy of transit signal priority is just as much an open and essential public policy question as it is an insight into how commuters make decisions.
-  </div>
-  </section>
+  <details class="project-dropdowns__item" name="wheels-sections">
+    <summary>Figures</summary>
+    <div class="project-dropdowns__panel figure-gallery">
+      <figure class="figure-gallery__viewer">
+        <a class="figure-gallery__full-resolution" href="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" target="_blank" rel="noopener noreferrer" aria-label="Open selected figure at full resolution">
+          <img class="figure-gallery__main-image" src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" alt="Map of average TTC vehicle speeds in downtown Toronto">
+        </a>
+        <figcaption class="figure-gallery__caption" aria-live="polite">
+          <strong>Figure 1.</strong> <span>Average TTC vehicle speeds in downtown Toronto.</span>
+        </figcaption>
+      </figure>
 
-  <section id="wheels-figures" class="project-dropdowns__panel figure-gallery" hidden>
-  <figure class="figure-gallery__viewer">
-    <a class="figure-gallery__full-resolution" href="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" target="_blank" rel="noopener noreferrer" aria-label="Open selected figure at full resolution">
-      <img class="figure-gallery__main-image" src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" alt="Map of average TTC vehicle speeds in downtown Toronto">
-    </a>
-    <figcaption class="figure-gallery__caption" aria-live="polite">
-      <strong>Figure 1.</strong> <span>Average TTC vehicle speeds in downtown Toronto.</span>
-    </figcaption>
-  </figure>
-
-  <div class="figure-gallery__thumbnails" role="list" aria-label="Select a figure">
-    <button class="figure-gallery__thumbnail is-active" type="button" role="listitem" aria-pressed="true"
-      data-src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png"
-      data-alt="Map of average TTC vehicle speeds in downtown Toronto"
-      data-number="Figure 1."
-      data-caption="Average TTC vehicle speeds in downtown Toronto.">
-      <img src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" alt="" loading="lazy">
-      <span>Figure 1</span>
-    </button>
-    <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
-      data-src="/assets/images/wheels-on-the-bus/downtown-tsp-map.png"
-      data-alt="Map of transit signal priority intersections and public transit routes in downtown Toronto"
-      data-number="Figure 2."
-      data-caption="Transit signal priority intersections and public transit surface routes in downtown Toronto.">
-      <img src="/assets/images/wheels-on-the-bus/downtown-tsp-map.png" alt="" loading="lazy">
-      <span>Figure 2</span>
-    </button>
-    <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
-      data-src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png"
-      data-alt="Average bus and streetcar speeds by hour of day"
-      data-number="Figure 3."
-      data-caption="Average bus and streetcar speeds by hour of day.">
-      <img src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" alt="" loading="lazy">
-      <span>Figure 3</span>
-    </button>
-  </div>
-  </section>
+      <div class="figure-gallery__thumbnails" role="list" aria-label="Select a figure">
+        <button class="figure-gallery__thumbnail is-active" type="button" role="listitem" aria-pressed="true"
+          data-src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png"
+          data-alt="Map of average TTC vehicle speeds in downtown Toronto"
+          data-number="Figure 1."
+          data-caption="Average TTC vehicle speeds in downtown Toronto.">
+          <img src="/assets/images/wheels-on-the-bus/downtown-ttc-speed.png" alt="" loading="lazy">
+          <span>Figure 1</span>
+        </button>
+        <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
+          data-src="/assets/images/wheels-on-the-bus/downtown-tsp-map.png"
+          data-alt="Map of transit signal priority intersections and public transit routes in downtown Toronto"
+          data-number="Figure 2."
+          data-caption="Transit signal priority intersections and public transit surface routes in downtown Toronto.">
+          <img src="/assets/images/wheels-on-the-bus/downtown-tsp-map.png" alt="" loading="lazy">
+          <span>Figure 2</span>
+        </button>
+        <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
+          data-src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png"
+          data-alt="Average bus and streetcar speeds by hour of day"
+          data-number="Figure 3."
+          data-caption="Average bus and streetcar speeds by hour of day.">
+          <img src="/assets/images/wheels-on-the-bus/average-speed-by-hour.png" alt="" loading="lazy">
+          <span>Figure 3</span>
+        </button>
+      </div>
+    </div>
+  </details>
 </div>
 
 <script>
   document.querySelectorAll('[data-project-dropdowns]').forEach(function (dropdownGroup) {
-    var toggles = dropdownGroup.querySelectorAll('.project-dropdowns__toggle');
-    var panels = dropdownGroup.querySelectorAll('.project-dropdowns__panel');
+    var dropdowns = dropdownGroup.querySelectorAll('.project-dropdowns__item');
 
-    toggles.forEach(function (toggle) {
-      toggle.addEventListener('click', function () {
-        var wasOpen = toggle.getAttribute('aria-expanded') === 'true';
-
-        toggles.forEach(function (item) {
-          item.setAttribute('aria-expanded', 'false');
-        });
-        panels.forEach(function (panel) {
-          panel.hidden = true;
-        });
-
-        if (!wasOpen) {
-          toggle.setAttribute('aria-expanded', 'true');
-          document.getElementById(toggle.getAttribute('aria-controls')).hidden = false;
+    dropdowns.forEach(function (dropdown) {
+      dropdown.addEventListener('toggle', function () {
+        if (dropdown.open) {
+          dropdowns.forEach(function (item) {
+            if (item !== dropdown) {
+              item.open = false;
+            }
+          });
         }
       });
     });
