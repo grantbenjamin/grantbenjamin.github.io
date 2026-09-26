@@ -75,7 +75,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/grantbenjamin/"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-graduation-cap"
+      icon: "ai ai-google-scholar ai-fw"
       url: "https://scholar.google.com/citations?user=LHONFP4AAAAJ&hl=en"
     #- label: "ORCID"
     #  icon: "ai ai-orcid"

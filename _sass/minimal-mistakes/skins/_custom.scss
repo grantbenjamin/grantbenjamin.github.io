@@ -61,10 +61,13 @@ $navicon-link-color-hover: #fff !default;
 /* Small photo credit in the bottom-right corner of hero images */
 .page__hero-caption {
   padding: 2px 5px !important;
-  font-family: inherit;
-  font-size: 0.5em;
+  color: #fff !important;
+  font-family: inherit !important;
+  font-size: 0.4em !important;
   letter-spacing: 0.01em;
-  opacity: 0.6;
+  background: transparent !important;
+  opacity: 0.8 !important;
+  border-radius: 0 !important;
 }
 
 /* Side-by-side native dropdown controls with separate full-width panels */
