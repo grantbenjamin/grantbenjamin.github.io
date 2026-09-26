@@ -61,7 +61,7 @@ $navicon-link-color-hover: #fff !default;
 /* Small photo credit in the bottom-right corner of hero images */
 .page__hero-caption {
   padding: 2px 5px !important;
-  font-family: $global-font-family;
+  font-family: inherit;
   font-size: 0.5em;
   letter-spacing: 0.01em;
   opacity: 0.6;
