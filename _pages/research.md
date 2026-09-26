@@ -3,6 +3,7 @@ title: Research
 permalink: /research/
 header:
   image: /assets/images/yukon4.jpeg
+  caption: "King's Throne Peak, Yukon, Canada · 09/01/25 · © Grant Benjamin"
 ---
 
 <div style="margin-top: -2em;"></div>
