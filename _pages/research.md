@@ -10,6 +10,20 @@ header:
 
 ## Working papers
 
+
+#### "It Only Takes *OneBite*: Attention Shocks in Local Markets." *(New Draft Coming Soon!)*.
+*Job Market Paper*
+*Presented at:* 60th Canadian Economics Association Meetings <br>
+
+<details>
+  <summary>Abstract</summary>
+  <div style="font-size: 0.85em; margin-left: 1em;">
+   In this era of information abundance, firms must compete for scarce consumer attention. Exploiting a unique quasi-experimental setting, I investigate how viral attention from a OneBite pizza video review impacts firm performance. After a OneBite review is posted to YouTube, total spending and total customers immediately increase at the reviewed pizzeria. The increase, however, critically depends on the review score. While scores < 7.0/10.0 do not affect firm performance and scores in the range [7.0,8.0) generate modest improvements, review scores ≥ 8.0 increase spending by over 47% and increase customers by over 52% in each of the first two months following the review. Despite the immediate increases, the effects are transitory, and all metrics revert to pretreatment levels within four months of the review. The trend reversion indicates that while revealed quality initially increases firm performance, viral attention fades, and more recent reviews divert consumers towards newly reviewed pizzerias; attention governs consumer choice. Rather than business-stealing, I determine that market expansion drives growth, as firm performance at nearby competitors remains constant. 
+  </div>
+</details>
+
+---
+
 #### "Braking Habits: The Impact of Leading Pedestrian Intervals." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820).
 *Revise and Resubmit at Journal of Public Economics.* <br>
 *Presented at:* 19th North American Meeting of the Urban Economics Association <br>
@@ -17,18 +31,6 @@ header:
   <summary>Abstract</summary>
   <div style="font-size: 0.85em; margin-left: 1em;">
     After introducing traffic safety measures, motorists often adopt riskier driving habits that offset the intended safety improvement. Exploiting a quasi-natural experiment in Toronto, I investigate how leading pedestrian intervals, advance walk signals that provide pedestrians a head start when crossing an intersection before motorists, impact pedestrian safety and influence motorist behaviour. I estimate that leading pedestrian intervals decrease the probability of a pedestrian collision at an intersection by 39%, with a 56% decrease in the likelihood of a pedestrian fatality or major injury. Rather than a behavioural offset, I determine that leading pedestrian intervals elicit a positive behavioural response from motorists to improve traffic safety.
-  </div>
-</details>
-
----
-
-#### "It Only Takes OneBite: Viral Reviews in the Attention Economy." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6073786).
-*Presented at:* 60th Canadian Economics Association Meetings <br>
-
-<details>
-  <summary>Abstract</summary>
-  <div style="font-size: 0.85em; margin-left: 1em;">
-   In this era of information abundance, firms must compete for scarce consumer attention. Exploiting a unique quasi-experimental setting, I investigate how viral attention from a OneBite pizza video review impacts firm performance. After a OneBite review is posted to YouTube, total spending and total customers immediately increase at the reviewed pizzeria. The increase, however, critically depends on the review score. While scores < 7.0/10.0 do not affect firm performance and scores in the range [7.0,8.0) generate modest improvements, review scores ≥ 8.0 increase spending by over 47% and increase customers by over 52% in each of the first two months following the review. Despite the immediate increases, the effects are transitory, and all metrics revert to pretreatment levels within four months of the review. The trend reversion indicates that while revealed quality initially increases firm performance, viral attention fades, and more recent reviews divert consumers towards newly reviewed pizzerias; attention governs consumer choice. Rather than business-stealing, I determine that market expansion drives growth, as firm performance at nearby competitors remains constant. 
   </div>
 </details>
 
