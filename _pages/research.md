@@ -15,12 +15,70 @@ header:
 *Job Market Paper* <br>
 *Presented at:* 60th Canadian Economics Association Meetings <br>
 
-<details>
-  <summary>Abstract</summary>
-  <div style="font-size: 0.85em; margin-left: 1em;">
-   In this era of information abundance, firms must compete for scarce consumer attention. Exploiting a unique quasi-experimental setting, I investigate how viral attention from a OneBite pizza video review impacts firm performance. After a OneBite review is posted to YouTube, total spending and total customers immediately increase at the reviewed pizzeria. The increase, however, critically depends on the review score. While scores < 7.0/10.0 do not affect firm performance and scores in the range [7.0,8.0) generate modest improvements, review scores ≥ 8.0 increase spending by over 47% and increase customers by over 52% in each of the first two months following the review. Despite the immediate increases, the effects are transitory, and all metrics revert to pretreatment levels within four months of the review. The trend reversion indicates that while revealed quality initially increases firm performance, viral attention fades, and more recent reviews divert consumers towards newly reviewed pizzerias; attention governs consumer choice. Rather than business-stealing, I determine that market expansion drives growth, as firm performance at nearby competitors remains constant. 
+<div class="project-dropdowns" data-project-dropdowns>
+  <div class="project-dropdowns__controls">
+    <details class="project-dropdowns__item" name="onebite-sections" data-panel-id="onebite-abstract">
+      <summary aria-controls="onebite-abstract">Abstract</summary>
+    </details>
+    <details class="project-dropdowns__item" name="onebite-sections" data-panel-id="onebite-figures">
+      <summary aria-controls="onebite-figures">Figures</summary>
+    </details>
   </div>
-</details>
+
+  <div class="project-dropdowns__panels">
+    <div id="onebite-abstract" class="project-dropdowns__panel" hidden>
+      <div style="font-size: 0.85em; margin-left: 1em;">
+        In this era of information abundance, firms must compete for scarce consumer attention. Exploiting a unique quasi-experimental setting, I investigate how viral attention from a OneBite pizza video review impacts firm performance. After a OneBite review is posted to YouTube, total spending and total customers immediately increase at the reviewed pizzeria. The increase, however, critically depends on the review score. While scores < 7.0/10.0 do not affect firm performance and scores in the range [7.0,8.0) generate modest improvements, review scores ≥ 8.0 increase spending by over 47% and increase customers by over 52% in each of the first two months following the review. Despite the immediate increases, the effects are transitory, and all metrics revert to pretreatment levels within four months of the review. The trend reversion indicates that while revealed quality initially increases firm performance, viral attention fades, and more recent reviews divert consumers towards newly reviewed pizzerias; attention governs consumer choice. Rather than business-stealing, I determine that market expansion drives growth, as firm performance at nearby competitors remains constant.
+      </div>
+    </div>
+
+    <div id="onebite-figures" class="project-dropdowns__panel figure-gallery" hidden>
+      <figure class="figure-gallery__viewer">
+        <a class="figure-gallery__full-resolution" href="/assets/images/onebite/PPMLAllScores.png" target="_blank" rel="noopener noreferrer" aria-label="Open selected figure at full resolution">
+          <img class="figure-gallery__main-image" src="/assets/images/onebite/PPMLAllScores.png" alt="Estimated customer effects of OneBite reviews by review score">
+        </a>
+        <figcaption class="figure-gallery__caption" aria-live="polite">
+          <strong>Figure 1.</strong> <span>High-score OneBite reviews increase customers.</span>
+        </figcaption>
+      </figure>
+
+      <div class="figure-gallery__thumbnails" role="list" aria-label="Select a figure">
+        <button class="figure-gallery__thumbnail is-active" type="button" role="listitem" aria-pressed="true"
+          data-src="/assets/images/onebite/PPMLAllScores.png"
+          data-alt="Estimated customer effects of OneBite reviews by review score"
+          data-number="Figure 1."
+          data-caption="High-score OneBite reviews increase customers.">
+          <img src="/assets/images/onebite/PPMLAllScores.png" alt="" loading="lazy">
+          <span>Figure 1</span>
+        </button>
+        <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
+          data-src="/assets/images/onebite/LocalPPML.png"
+          data-alt="Estimated treatment effects for reviews by score"
+          data-number="Figure 2."
+          data-caption="Treatment effects occur only for high-score reviews.">
+          <img src="/assets/images/onebite/LocalPPML.png" alt="" loading="lazy">
+          <span>Figure 2</span>
+        </button>
+        <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
+          data-src="/assets/images/onebite/PPMLLogShare.png"
+          data-alt="Estimated treatment effects for tourists"
+          data-number="Figure 3."
+          data-caption="The treatment effect is largest for tourists.">
+          <img src="/assets/images/onebite/PPMLLogShare.png" alt="" loading="lazy">
+          <span>Figure 3</span>
+        </button>
+        <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
+          data-src="/assets/images/onebite/PPMLNAICS81000Q_HL.png"
+          data-alt="Estimated agglomeration and substitution spillovers by establishment type"
+          data-number="Figure 4."
+          data-caption="Positive agglomeration spillovers for drinking places, with substitution away from limited-service restaurants.">
+          <img src="/assets/images/onebite/PPMLNAICS81000Q_HL.png" alt="" loading="lazy">
+          <span>Figure 4</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
 ---
 
