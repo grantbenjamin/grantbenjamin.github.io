@@ -12,7 +12,7 @@ header:
 
 
 #### "It Only Takes *OneBite*: Attention Shocks in Local Markets." *(New Draft Coming Soon!)*.
-*Job Market Paper*
+*Job Market Paper* <br>
 *Presented at:* 60th Canadian Economics Association Meetings <br>
 
 <details>
