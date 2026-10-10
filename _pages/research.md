@@ -83,7 +83,7 @@ In an era of information abundance, scarce attention constrains consumer choice.
 
 ---
 
-#### "Braking Habits: The Impact of Leading Pedestrian Intervals." [Working paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4926820).
+#### "Braking Habits: The Impact of Leading Pedestrian Intervals." [New Draft](https://grantbenjamin.github.io/research/Braking-Habits-JPube-Revisions.pdf).
 *Revise and Resubmit at Journal of Public Economics.* <br>
 *Presented at:* 19th North American Meeting of the Urban Economics Association <br>
 <details>
