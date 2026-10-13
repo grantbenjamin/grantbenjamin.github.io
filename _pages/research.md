@@ -93,18 +93,7 @@ In an era of information abundance, scarce attention constrains consumer choice.
   </div>
 </details>
 
----
 
-#### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)." [Working paper](https://www.econstor.eu/handle/10419/280230).
-with [Benjamin Couillard](https://sites.google.com/view/ben-couillard/home) and [Jonathan Hall](https://jhall.github.io/). <br>
-*I4R Discussion Paper Series.* 
-
-<details>
-  <summary>Abstract</summary>
-  <div style="font-size: 0.85em; margin-left: 1em;">
-    Cohen and Dechezleprêtre (2022) investigate the heterogeneous impact of temperature on mortality across Mexico, and how affordable healthcare services that target the low-income population attenuate the mortality effects of weather events. They find that while extreme temperatures are more dangerous than less extreme temperatures, the increased frequency of non-extreme temperatures mean these temperatures cause more deaths. First, we reproduce the paper's main findings, uncovering a minor coding error that has a trivial effect on the main results. Second, we test the robustness of the results to clustering at the state level, omitting precipitation, and using a different weighting scheme. The original results are robust to all of these changes.
-  </div>
-</details>
 
 ## Works In Progress
 
@@ -267,4 +256,17 @@ with Niko Yiannakoulias, J Connor Darlington, and Catherine E Slavik. <br>
   <div style="font-size: 0.85em; margin-left: 1em;">
  Social media platforms, such as Facebook, Instagram, Twitter, and YouTube, have a role in spreading anti-vaccine opinion and misinformation. Vaccines have been an important component of managing the COVID-19 pandemic, so content that discourages vaccination is generally seen as a concern to public health. However, not all negative information about vaccines is explicitly anti-vaccine, and some of it may be an important part of open communication between public health experts and the community.
 </div>
+</details>
+
+---
+
+#### "Mortality, temperature, and public health provision: A comment on Cohen and Dechezlepretre (2022)." [Working paper](https://www.econstor.eu/handle/10419/280230).
+with [Benjamin Couillard](https://sites.google.com/view/ben-couillard/home) and [Jonathan Hall](https://jhall.github.io/). <br>
+*I4R Discussion Paper Series.* 
+
+<details>
+  <summary>Abstract</summary>
+  <div style="font-size: 0.85em; margin-left: 1em;">
+    Cohen and Dechezleprêtre (2022) investigate the heterogeneous impact of temperature on mortality across Mexico, and how affordable healthcare services that target the low-income population attenuate the mortality effects of weather events. They find that while extreme temperatures are more dangerous than less extreme temperatures, the increased frequency of non-extreme temperatures mean these temperatures cause more deaths. First, we reproduce the paper's main findings, uncovering a minor coding error that has a trivial effect on the main results. Second, we test the robustness of the results to clustering at the state level, omitting precipitation, and using a different weighting scheme. The original results are robust to all of these changes.
+  </div>
 </details>
