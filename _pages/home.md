@@ -8,7 +8,7 @@ header:
   caption: "King's Throne, Yukon, Canada · 09/01/25 · © Grant Benjamin"
 ---
 
-I am a PhD Candidate in Economics at the University of Toronto, specializing in empirical microeconomics. My research interests are in urban, spatial, and real estate economics.
+I am a PhD Candidate in Economics at the University of Toronto, specializing in empirical microeconomics. My research interests are in urban, spatial, and public economics.
 
 **I am on the 2026–27 academic job market.**
 
