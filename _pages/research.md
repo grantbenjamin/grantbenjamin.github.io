@@ -11,7 +11,7 @@ header:
 ## Working papers
 
 
-#### "It Only Takes *OneBite*: Attention Shocks in Local Markets." *(New Draft Coming Soon!)*.
+#### "It Only Takes *OneBite*: Attention Shocks in Local Markets." [*(New Draft!)*](/research/OnlyTakesOneBite.pdf).
 *Job Market Paper* <br>
 *Presented at:* 60th Canadian Economics Association Meetings <br>
 
@@ -28,7 +28,7 @@ header:
   <div class="project-dropdowns__panels">
     <div id="onebite-abstract" class="project-dropdowns__panel" hidden>
       <div style="font-size: 0.85em; margin-left: 1em;">
-In an era of information abundance, scarce attention constrains consumer choice. Exploiting a unique quasi-experimental setting, I evaluate how viral attention from a <em>OneBite</em> pizza review affects consumption decisions. Using a staggered event study, I estimate that total customers at the reviewed pizzeria increase 6.2% in the first month following the review. However, the increase critically depends on the review score. While scores <7.0 and scores in the range [7.0, 8.0) do not increase customers monthly, scores ≥8.0 increase customers by an average of 43% in each of the first three months following the review. The response is particularly large for non-local consumers, who have less prior knowledge of local alternatives. The surge in customer traffic generates positive spatial spillovers onto nearby drinking places, consistent with consumer-based agglomeration from the shared customer base. Despite the initial increase, viral attention fades as monthly customers return to their pretreatment level within four months. Using a bounded consideration model, I separate the demand response into an attention channel that increases awareness of the pizzeria and an information channel that updates a consumer's belief about its quality. Simulated maximum likelihood estimates show that although the score changes perceived quality, increased attention is the dominant mechanism to explain the increase in customers.
+        How do digital media platforms redirect attention and influence consumer choice? I investigate a novel setting and evaluate how online attention from a <em>OneBite</em> pizza review impacts consumer decisions and firm performance. Using variation in the review upload dates, I find that review scores ≥8.0 increase customers at the reviewed pizzeria by an average of 43% over the first three months following the review, while scores &lt;8.0 have no significant effect. Although a high-score review only directs attention to a single establishment, I show that the consumer response generates positive spatial spillovers onto nearby drinking places, consistent with consumer-based agglomeration from the shared customer base. Despite the initial increase, the attention does not create sustained growth as customers return to their pretreatment level within four months. To uncover the mechanisms that explain the consumer response, I develop a theoretical framework and decompose the response into three channels: awareness, information, and prestige. While the higher response from non-local consumers highlights the role of product awareness, I find consumers do not respond to new information about a product's quality. Instead, the prestige from visiting a viral establishment explains 83% of the immediate consumer response.
 
       </div>
     </div>
@@ -39,7 +39,7 @@ In an era of information abundance, scarce attention constrains consumer choice.
           <img class="figure-gallery__main-image" src="/assets/images/onebite/PPMLAllScores.png" alt="Estimated customer effects of OneBite reviews by review score">
         </a>
         <figcaption class="figure-gallery__caption" aria-live="polite">
-          <strong>Figure 1.</strong> <span>High-score OneBite reviews increase customers.</span>
+          <strong>Figure 1.</strong> <span>High-score OneBite reviews increase customers for three months.</span>
         </figcaption>
       </figure>
 
@@ -48,7 +48,7 @@ In an era of information abundance, scarce attention constrains consumer choice.
           data-src="/assets/images/onebite/PPMLAllScores.png"
           data-alt="Estimated customer effects of OneBite reviews by review score"
           data-number="Figure 1."
-          data-caption="High-score OneBite reviews increase customers.">
+          data-caption="High-score OneBite reviews increase customers for three months.">
           <img src="/assets/images/onebite/PPMLAllScores.png" alt="" loading="lazy">
           <span>Figure 1</span>
         </button>
@@ -56,25 +56,33 @@ In an era of information abundance, scarce attention constrains consumer choice.
           data-src="/assets/images/onebite/LocalPPML.png"
           data-alt="Estimated treatment effects for reviews by score"
           data-number="Figure 2."
-          data-caption="Treatment effects occur only for high-score reviews.">
+          data-caption="Treatment effects are monotonic in review score.">
           <img src="/assets/images/onebite/LocalPPML.png" alt="" loading="lazy">
           <span>Figure 2</span>
         </button>
         <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
-          data-src="/assets/images/onebite/PPMLLogShare.png"
-          data-alt="Estimated treatment effects for tourists"
+          data-src="/assets/images/onebite/PPMLNAICS81000Q_HL.png"
+          data-alt="Estimated customer spillovers across nearby industries following a high-score review"
           data-number="Figure 3."
-          data-caption="The treatment effect is largest for tourists.">
-          <img src="/assets/images/onebite/PPMLLogShare.png" alt="" loading="lazy">
+          data-caption="High-score reviews generate positive spillovers onto nearby drinking places, with substitution away from limited-service restaurants.">
+          <img src="/assets/images/onebite/PPMLNAICS81000Q_HL.png" alt="" loading="lazy">
           <span>Figure 3</span>
         </button>
         <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
-          data-src="/assets/images/onebite/PPMLNAICS81000Q_HL.png"
-          data-alt="Estimated agglomeration and substitution spillovers by establishment type"
+          data-src="/assets/images/onebite/PPMLHetTourismDistance.png"
+          data-alt="Estimated treatment effects by distance between the consumer and reviewed pizzeria"
           data-number="Figure 4."
-          data-caption="Positive agglomeration spillovers for drinking places, with substitution away from limited-service restaurants.">
-          <img src="/assets/images/onebite/PPMLNAICS81000Q_HL.png" alt="" loading="lazy">
+          data-caption="The consumer response increases with distance from the reviewed pizzeria.">
+          <img src="/assets/images/onebite/PPMLHetTourismDistance.png" alt="" loading="lazy">
           <span>Figure 4</span>
+        </button>
+        <button class="figure-gallery__thumbnail" type="button" role="listitem" aria-pressed="false"
+          data-src="/assets/images/onebite/CounterfactualsErrorBar.png"
+          data-alt="Predicted consumer response with information, awareness, and prestige channels removed in turn"
+          data-number="Figure 5."
+          data-caption="Prestige explains most of the immediate consumer response.">
+          <img src="/assets/images/onebite/CounterfactualsErrorBar.png" alt="" loading="lazy">
+          <span>Figure 5</span>
         </button>
       </div>
     </div>
